@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="17"
+  Name="OEMInfos"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <StringField
+      ID="630"
+      Name="StringField373"
+      Row="0"
+      Column="6"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="MyUUID_S" />
+    <TextField
+      ID="631"
+      Name="TextField374"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="632"
+      Name="TextField384"
+      Row="1"
+      Column="0" />
+    <DataField
+      ID="633"
+      Name="DataField385"
+      Row="1"
+      Column="6"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="IIIII"
+      VariableName="OemInfoD.HeaderVersion"
+      Min="0"
+      Max="65535" />
+    <TextField
+      ID="634"
+      Name="TextField634"
+      Row="2"
+      Column="0" />
+    <StringField
+      ID="635"
+      Name="StringField387"
+      Row="2"
+      Column="2"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="OemInfoD.MachineCode" />
+    <TextField
+      ID="636"
+      Name="TextField636"
+      Row="3"
+      Column="0" />
+    <StringField
+      ID="637"
+      Name="StringField389"
+      Row="3"
+      Column="6"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="OemInfoD.OV_MachineCode" />
+    <StringField
+      ID="638"
+      Name="StringField390"
+      Row="4"
+      Column="6"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="OemID_String1" />
+    <StringField
+      ID="639"
+      Name="StringField391"
+      Row="5"
+      Column="6"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="OemID_String2" />
+    <TextField
+      ID="640"
+      Name="TextField640"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="641"
+      Name="TextField394"
+      Row="6"
+      Column="0" />
+    <StringField
+      ID="642"
+      Name="StringField395"
+      Row="6"
+      Column="6"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="OVOemID_String1" />
+    <StringField
+      ID="643"
+      Name="StringField396"
+      Row="7"
+      Column="6"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="OVOemID_String2" />
+  </MaskElements>
+</BaseMaskData>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="12"
+  Name="PowerStatus"
+  Version="3.0"
+  EnableOn="FALSE" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="606"
+      Name="TextField606"
+      Row="0"
+      Column="0" />
+    <DataField
+      ID="607"
+      Name="DataField607"
+      Row="2"
+      Column="0"
+      Domain="UINT"
+      Presentation="IAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="IIIII"
+      VariableName="PowerSupplyState"
+      Min="0"
+      Max="65535">
+      <IntStates>
+        <State
+          ID="0"
+          Type="Text"
+          TranslationKey="pGD1_L25M12DF607_MR0" />
+        <State
+          ID="4"
+          Type="Text"
+          TranslationKey="pGD1_L25M12DF607_MR4" />
+        <State
+          ID="3"
+          Type="Text"
+          TranslationKey="pGD1_L25M12DF607_MR3" />
+        <State
+          ID="2"
+          Type="Text"
+          TranslationKey="pGD1_L25M12DF607_MR2" />
+        <State
+          ID="1"
+          Type="Text"
+          TranslationKey="pGD1_L25M12DF607_MR1" />
+      </IntStates>
+    </DataField>
+    <TextField
+      ID="608"
+      Name="TextField608"
+      Row="2"
+      Column="14" />
+    <DataField
+      ID="609"
+      Name="DataField357"
+      Row="2"
+      Column="19"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="PowerSupplyFrequency"
+      Min="0"
+      Max="999" />
+    <TextField
+      ID="610"
+      Name="TextField359"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="611"
+      Name="TextField360"
+      Row="5"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

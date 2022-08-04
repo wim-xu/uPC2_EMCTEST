@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="11"
+  Name="InsertPassword"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="53" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="20"
+      Name="ShapeField20"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="21"
+      Name="TextField21"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="22"
+      Name="TextField22"
+      Row="4"
+      Column="0" />
+    <ImageField
+      ID="46"
+      Name="ImageField46"
+      Row="1"
+      Column="9"
+      Domain="Image"
+      Presentation="image"
+      Selectable="FALSE"
+      Nickname="Key_36x16"
+      X="54"
+      Y="8" />
+    <ShapeField
+      ID="51"
+      Name="ShapeField51"
+      Row="7"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="52"
+      Name="TextField52"
+      Row="7"
+      Column="1"
+      EnableOn="WrngPwd" />
+    <DataField
+      ID="53"
+      Name="Digit1"
+      Row="4"
+      Column="18"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="TmpPwd_Dig1"
+      Min="0"
+      Max="9">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="GoToMainLoop.st"
+          FunctionName="GoToMainLoop"
+          Call="GoToMainLoop(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+    </DataField>
+    <DataField
+      ID="54"
+      Name="Digit2"
+      Row="4"
+      Column="19"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="TmpPwd_Dig2"
+      Min="0"
+      Max="9">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="GoToPreviousDigit.st"
+          FunctionName="GoToPreviousDigit"
+          Call="GoToPreviousDigit(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+    </DataField>
+    <DataField
+      ID="55"
+      Name="Digit3"
+      Row="4"
+      Column="20"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="TmpPwd_Dig3"
+      Min="0"
+      Max="9">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="GoToPreviousDigit.st"
+          FunctionName="GoToPreviousDigit"
+          Call="GoToPreviousDigit(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+    </DataField>
+    <DataField
+      ID="56"
+      Name="Digit4"
+      Row="4"
+      Column="21"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="TmpPwd_Dig4"
+      Min="0"
+      Max="9">
+      <Actions>
+        <Action
+          KeyName="KEY_ENTER"
+          FileName="AskPwd.st"
+          FunctionName="AskPwd"
+          Call="AskPwd(keyPressed, keyCounter);"
+          Type="Single" />
+        <Action
+          KeyName="KEY_ESC"
+          FileName="GoToPreviousDigit.st"
+          FunctionName="GoToPreviousDigit"
+          Call="GoToPreviousDigit(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+    </DataField>
+  </MaskElements>
+</BaseMaskData>

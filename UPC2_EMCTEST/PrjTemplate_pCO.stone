@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SToneSolution name="PrjTemplate_pCO" version="1.0">
+  <Projects active="UPC2_EMCTEST">
+    <Project file="UPC2_EMCTEST\UPC2_EMCTEST.stprj" />
+  </Projects>
+  <Configurations active="Release">
+    <Configuration name="Debug" batchbuild="False">
+      <Project name="UPC2_EMCTEST" build="true" configuration="Debug" />
+    </Configuration>
+    <Configuration name="Release" batchbuild="False">
+      <Project name="UPC2_EMCTEST" build="true" configuration="Debug" />
+    </Configuration>
+  </Configurations>
+</SToneSolution>

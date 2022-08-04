@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="35"
+  Name="DefaultMsk"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="343" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="254"
+      Name="ShapeField254"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="255"
+      Name="TextField255"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="256"
+      Name="TextField256"
+      Row="2"
+      Column="0" />
+    <DataField
+      ID="257"
+      Name="DataField257"
+      Row="3"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="Restoredefault">
+      <Actions>
+        <Action
+          KeyName="KEY_ENTER"
+          FileName="RestoreDefaultENTER.st"
+          FunctionName="RestoreDefaultENTER"
+          Call="RestoreDefaultENTER(keyPressed, keyCounter, gui.tmpVarContent.BOOL);"
+          Type="Single" />
+      </Actions>
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L22M35DF257_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L22M35DF257_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextWidget
+      ID="343"
+      Name="TextWidget343"
+      Row="0"
+      Column="0"
+      Selectable="TRUE"
+      ClassName="AccessRightWidget">
+      <Members>
+        <Member
+          Name="LoginType"
+          Value="2" />
+      </Members>
+    </TextWidget>
+  </MaskElements>
+</BaseMaskData>

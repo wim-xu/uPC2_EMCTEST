@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="52"
+  Name="Sysinfos"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <StringField
+      ID="352"
+      Name="StringField352"
+      Row="1"
+      Column="6"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="MyUUID_S" />
+    <TextField
+      ID="618"
+      Name="TextField353"
+      Row="1"
+      Column="0" />
+    <TextField
+      ID="619"
+      Name="TextField354"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="620"
+      Name="TextField365"
+      Row="2"
+      Column="0" />
+    <DataField
+      ID="621"
+      Name="DataField621"
+      Row="2"
+      Column="12"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="IIIII"
+      VariableName="deviceType"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="622"
+      Name="DataField622"
+      Row="3"
+      Column="12"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="IIIII"
+      VariableName="boardType"
+      Min="0"
+      Max="65535" />
+    <TextField
+      ID="623"
+      Name="TextField368"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="624"
+      Name="TextField369"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="625"
+      Name="TextField370"
+      Row="5"
+      Column="0" />
+    <DataField
+      ID="626"
+      Name="DataField371"
+      Row="4"
+      Column="12"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="IIIII"
+      VariableName="machineType"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="627"
+      Name="DataField372"
+      Row="5"
+      Column="12"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="IIIII"
+      VariableName="hwCode"
+      Min="0"
+      Max="65535" />
+    <StringField
+      ID="628"
+      Name="StringField399"
+      Row="6"
+      Column="5"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="Infos.ProductCode" />
+    <TextField
+      ID="629"
+      Name="TextField400"
+      Row="6"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

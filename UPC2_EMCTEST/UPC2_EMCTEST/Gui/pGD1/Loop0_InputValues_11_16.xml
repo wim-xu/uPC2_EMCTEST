@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="9"
+  Name="InputValues_11_16"
+  Version="3.0"
+  EnableOn="CurrentIOInfo.U&gt;10 OR EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="190"
+      Name="TextField190"
+      Row="0"
+      Column="0"
+      EnableOn="CurrentIOInfo.U&gt;10" />
+    <TextField
+      ID="526"
+      Name="TextField202"
+      Row="2"
+      Column="0"
+      EnableOn="CurrentIOInfo.U&gt;11" />
+    <TextField
+      ID="527"
+      Name="TextField201"
+      Row="1"
+      Column="0"
+      EnableOn="CurrentIOInfo.U&gt;10" />
+    <DataField
+      ID="672"
+      Name="DataField672"
+      Row="1"
+      Column="3"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.U&gt;10"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[11]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="674"
+      Name="DataField674"
+      Row="2"
+      Column="3"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.U&gt;11"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[12]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="735"
+      Name="TextField735"
+      Row="0"
+      Column="0"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" />
+    <TextField
+      ID="736"
+      Name="TextField736"
+      Row="1"
+      Column="0"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" />
+    <DataField
+      ID="737"
+      Name="DataField737"
+      Row="1"
+      Column="3"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="EVD_EVO_S1Value"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="738"
+      Name="TextField738"
+      Row="2"
+      Column="0"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" />
+    <DataField
+      ID="739"
+      Name="DataField739"
+      Row="2"
+      Column="3"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="EVD_EVO_S2Value"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="740"
+      Name="TextField740"
+      Row="3"
+      Column="0"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" />
+    <DataField
+      ID="741"
+      Name="DataField741"
+      Row="3"
+      Column="3"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="EVD_EVO_S3Value"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="742"
+      Name="TextField742"
+      Row="4"
+      Column="0"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" />
+    <DataField
+      ID="743"
+      Name="DataField743"
+      Row="4"
+      Column="3"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="EVD_EVO_S4Value"
+      Min="-9999.9"
+      Max="9999.9" />
+  </MaskElements>
+</BaseMaskData>

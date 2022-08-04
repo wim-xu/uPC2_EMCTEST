@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="51"
+  Name="I2C_Monitor"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="614"
+      Name="TextField614"
+      Row="0"
+      Column="0" />
+    <DataField
+      ID="615"
+      Name="DataField405"
+      Row="3"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="RetainBusErrorCount"
+      Min="0"
+      Max="65535" />
+    <TextField
+      ID="616"
+      Name="TextField406"
+      Row="3"
+      Column="0" />
+    <DataField
+      ID="617"
+      Name="DataField407"
+      Row="2"
+      Column="15"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="NVRAMTestEnable" />
+    <TextField
+      ID="412"
+      Name="TextField412"
+      Row="2"
+      Column="0" />
+    <DataField
+      ID="413"
+      Name="DataField413"
+      Row="3"
+      Column="15"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="RetainTestEnableWr" />
+    <TextField
+      ID="414"
+      Name="TextField414"
+      Row="4"
+      Column="0" />
+    <DataField
+      ID="415"
+      Name="DataField415"
+      Row="4"
+      Column="15"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="NAND_FileTestEnable" />
+    <DataField
+      ID="417"
+      Name="DataField417"
+      Row="4"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="NandFileErrorCount"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="418"
+      Name="DataField418"
+      Row="2"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="NVVRAMErrorCount"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="419"
+      Name="DataField419"
+      Row="5"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="NandFileCnfErrorCount"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="420"
+      Name="DataField420"
+      Row="6"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="NandFileOpenErrorCount"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="421"
+      Name="DataField421"
+      Row="7"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="NandFileWriteErrorCount"
+      Min="0"
+      Max="65535" />
+    <TextField
+      ID="422"
+      Name="TextField422"
+      Row="5"
+      Column="9" />
+    <TextField
+      ID="423"
+      Name="TextField423"
+      Row="6"
+      Column="8" />
+    <TextField
+      ID="424"
+      Name="TextField424"
+      Row="7"
+      Column="7" />
+  </MaskElements>
+</BaseMaskData>

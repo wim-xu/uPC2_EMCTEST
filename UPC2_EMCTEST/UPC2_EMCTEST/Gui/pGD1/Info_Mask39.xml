@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="39"
+  Name="Blackout"
+  Version="3.0"
+  EnableOn="FALSE" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="345"
+      Name="TextField345"
+      Row="1"
+      Column="0" />
+    <ShapeField
+      ID="346"
+      Name="ShapeField346"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="347"
+      Name="TextField347"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="348"
+      Name="TextField348"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="349"
+      Name="TextField349"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="350"
+      Name="TextField350"
+      Row="6"
+      Column="0" />
+    <TextField
+      ID="351"
+      Name="TextField351"
+      Row="7"
+      Column="3" />
+    <DataField
+      ID="353"
+      Name="DataField353"
+      Row="3"
+      Column="14"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="14"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="CurrLocTime.Hour"
+      Min="0"
+      Max="23"
+      UoM="h" />
+    <DataField
+      ID="354"
+      Name="DataField354"
+      Row="3"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="17"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="CurrLocTime.Minute"
+      Min="0"
+      Max="59"
+      UoM="min" />
+    <DataField
+      ID="355"
+      Name="DataField355"
+      Row="3"
+      Column="20"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="20"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="CurrLocTime.Second"
+      Min="0"
+      Max="59"
+      UoM="s" />
+    <TextField
+      ID="356"
+      Name="TextField356"
+      Row="3"
+      Column="16" />
+    <TextField
+      ID="357"
+      Name="TextField357"
+      Row="3"
+      Column="19" />
+    <DataField
+      ID="358"
+      Name="DataField358"
+      Row="7"
+      Column="16"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="OffMins_BLKO"
+      Min="0"
+      Max="59"
+      UoM="min" />
+    <DataField
+      ID="359"
+      Name="DataField359"
+      Row="7"
+      Column="9"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="OffHours_BLKO"
+      Min="0"
+      Max="23"
+      UoM="h" />
+    <DataField
+      ID="360"
+      Name="DataField360"
+      Row="7"
+      Column="0"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="OffDays_BLKO"
+      Min="1"
+      Max="999"
+      UoM="d" />
+    <TextField
+      ID="361"
+      Name="TextField361"
+      Row="5"
+      Column="2" />
+    <TextField
+      ID="362"
+      Name="TextField362"
+      Row="5"
+      Column="5" />
+    <TextField
+      ID="363"
+      Name="TextField363"
+      Row="5"
+      Column="16" />
+    <TextField
+      ID="364"
+      Name="TextField364"
+      Row="5"
+      Column="19" />
+    <DataField
+      ID="365"
+      Name="DataField365"
+      Row="5"
+      Column="0"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="LastOnDay_BLKO"
+      Min="1"
+      Max="31"
+      UoM="d" />
+    <DataField
+      ID="366"
+      Name="DataField366"
+      Row="5"
+      Column="14"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="14"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="LastOnHour_BLKO"
+      Min="0"
+      Max="23"
+      UoM="h" />
+    <DataField
+      ID="367"
+      Name="DataField367"
+      Row="5"
+      Column="17"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="17"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="LastOnMin_BLKO"
+      Min="0"
+      Max="59"
+      UoM="min" />
+    <DataField
+      ID="368"
+      Name="DataField368"
+      Row="5"
+      Column="3"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="3"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="LastOnMonth_BLKO"
+      Min="1"
+      Max="12"
+      UoM="mo" />
+    <DataField
+      ID="369"
+      Name="DataField369"
+      Row="5"
+      Column="20"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="20"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="LastOnSec_BLKO"
+      Min="0"
+      Max="59"
+      UoM="s" />
+    <DataField
+      ID="370"
+      Name="DataField370"
+      Row="5"
+      Column="6"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="iiii"
+      VariableName="LastOnYear_BLKO"
+      Min="2021"
+      Max="2200"
+      UoM="y" />
+    <TextField
+      ID="371"
+      Name="TextField371"
+      Row="3"
+      Column="2" />
+    <TextField
+      ID="372"
+      Name="TextField372"
+      Row="3"
+      Column="5" />
+    <DataField
+      ID="373"
+      Name="DataField373"
+      Row="3"
+      Column="0"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="CurrLocTime.Day"
+      Min="1"
+      Max="31"
+      UoM="d" />
+    <DataField
+      ID="374"
+      Name="DataField374"
+      Row="3"
+      Column="3"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      FieldTextColumn="3"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="CurrLocTime.Month"
+      Min="1"
+      Max="12"
+      UoM="mo" />
+    <DataField
+      ID="375"
+      Name="DataField375"
+      Row="3"
+      Column="6"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="iiii"
+      VariableName="CurrLocTime.Year"
+      Min="2021"
+      Max="2200"
+      UoM="y" />
+    <ShapeField
+      ID="376"
+      Name="ShapeField376"
+      Row="6"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="2"
+      Fill="true"
+      Element="Rectangle" />
+  </MaskElements>
+</BaseMaskData>

@@ -1,0 +1,1937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MasterProtocolConfigurator
+  version="1.1">
+  <GlobalSettings />
+  <Templates>
+    <ModbusTemplate
+      Name="HeosSlaveSim"
+      Protocol="Modbus"
+      Guid="bba4a2de-b8e9-43fc-ac33-ce9a4fa24474">
+      <Variables>
+        <ModbusVariable
+          DataType="INT"
+          Name="HoldingRegister_CH1_VALUE"
+          Index="51"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HoldingRegister_CH1_TYPE"
+          Index="103"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+      </Variables>
+      <Settings />
+    </ModbusTemplate>
+    <ModbusTemplate
+      Name="InverterCpu"
+      Protocol="Modbus"
+      Guid="8e1661e1-b577-4983-823b-943f9f2e1e09">
+      <Variables>
+        <ModbusVariable
+          DataType="INT"
+          Name="HoldingRegister_0"
+          Index="51"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HoldingRegister_1"
+          Index="103"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+      </Variables>
+      <Settings />
+    </ModbusTemplate>
+    <ModbusTemplate
+      Name="InverterSecur"
+      Protocol="Modbus"
+      Guid="4fdfc72e-5d43-4920-a2bd-2028e0a1726f">
+      <Variables>
+        <ModbusVariable
+          DataType="UINT"
+          Name="HoldingRegister_0"
+          Index="51"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+      </Variables>
+      <Settings />
+    </ModbusTemplate>
+    <ModbusTemplate
+      Name="MBM_TMPL_PWRP_uMOTOR"
+      Protocol="Modbus"
+      Guid="d68910c1-934d-4241-b64b-f842880ad6ee">
+      <Variables>
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_00_MotCtrlMode"
+          Index="0"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_01_MotBaseFreq"
+          Index="1"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_02_MotBaseV"
+          Index="2"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_03_MotRatedA"
+          Index="3"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_04_MotPwrFactor"
+          Index="4"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_05_MaxOutCurrent"
+          Index="5"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_06_MaxOutFreq"
+          Index="6"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_07_MinOutFreq"
+          Index="7"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_08_EnRevSpeed"
+          Index="8"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_09_SpeedDeratingMode"
+          Index="9"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_10_SkipFreqSetP"
+          Index="10"
+          Hysteresis="0"
+          RWMode="NoReadWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_11_SkipFreqBand"
+          Index="11"
+          Hysteresis="0"
+          RWMode="NoReadWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_12_SpeedProfileFreq1"
+          Index="12"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_13_SpeedProfileFreq2"
+          Index="13"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_14_SpeedProfileFreq3"
+          Index="14"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_15_SpeedProfileAcceleration1"
+          Index="15"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_16_SpeedProfileAcceleration2"
+          Index="16"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_17_SpeedProfileAcceleration3"
+          Index="17"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_18_SpeedProfileAcceleration4"
+          Index="18"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_19_SpeedProfileDelay1"
+          Index="19"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_20_SpeedProfileDelay2"
+          Index="20"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_21_SpeedProfileDelay3"
+          Index="21"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_22_SpeedProfileStartMode"
+          Index="22"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_23_SpeedProfileDeceleration"
+          Index="23"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_24_SwitchingFreq"
+          Index="24"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_25_SwitchingFreqDerating"
+          Index="25"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_26_RelayCfg"
+          Index="26"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_27_MotOvTempAlrmPTC_En"
+          Index="27"
+          Hysteresis="0"
+          RWMode="NoReadWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_28_MotOvTempAlrmPTC_Delay"
+          Index="28"
+          Hysteresis="0"
+          RWMode="NoReadWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_29_DataCommTimeout"
+          Index="29"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_30_DataCommBaudrate"
+          Index="30"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_31_DataCommParity"
+          Index="31"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_32_BaseAddr"
+          Index="32"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_33_StopMode"
+          Index="33"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_34_FlyingRestart"
+          Index="34"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_35_V_F_BoostV"
+          Index="35"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_36_V_F_FreqAdj"
+          Index="36"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_37_V_F_VAdj"
+          Index="37"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_38_Reserved"
+          Index="38"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_39_Reserved"
+          Index="39"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_40_LdLqStallDetcT"
+          Index="40"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_41_TorqueStallDetcT"
+          Index="41"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_42_LdLqStallLimit"
+          Index="42"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_43_Reserved"
+          Index="43"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_44_Reserved"
+          Index="44"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_45_MotMagnetizingCurrent"
+          Index="45"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_46_StatorResistance"
+          Index="46"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_47_RotorResistance"
+          Index="47"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_48_StatorInductanceLd"
+          Index="48"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_49_LeakageFactor"
+          Index="49"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_50_LqInductance"
+          Index="50"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_51_MagnetizingTime"
+          Index="51"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_52_Reserved"
+          Index="52"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_53_RegenerationCurrentLimit"
+          Index="53"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_54_OvVCtrlALim"
+          Index="54"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_55_SpeedLoopKp"
+          Index="55"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_56_SpeedLoopTi"
+          Index="56"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_57_StartingCurrent"
+          Index="57"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_58_StartingAFreq"
+          Index="58"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_59_Reserved"
+          Index="59"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_60_Reserved"
+          Index="60"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_61_Reserved"
+          Index="61"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_62_Reserved"
+          Index="62"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_63_Reserved"
+          Index="63"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_64_Reserved"
+          Index="64"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_65_CrankCaseHeaterCurrent"
+          Index="65"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_66_STOResetStrategy"
+          Index="66"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_67_SkipFreqSetP_2"
+          Index="67"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_68_SkipFreqBand_2"
+          Index="68"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_69_SkipFreqSetp_3"
+          Index="69"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_70_SkipFreqBand_3"
+          Index="70"
+          Hysteresis="0"
+          RWMode="NoReadWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_71_Reserved"
+          Index="71"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_72_Reserved"
+          Index="72"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_73_Reserved"
+          Index="73"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_74_Reserved"
+          Index="74"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_75_Reserved"
+          Index="75"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_76_ExtendedFn"
+          Index="76"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_77_InductSaturFactor"
+          Index="77"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_78_Reserved"
+          Index="78"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_79_Reserved"
+          Index="79"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_100_RunStop_CW_CCW"
+          Index="100"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_101_Reset"
+          Index="101"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="HR_102_FreqSetP"
+          Index="102"
+          Hysteresis="0"
+          RWMode="NoReadWritePoll"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_103_AutoTune"
+          Index="103"
+          Hysteresis="0"
+          RWMode="ReadOnlineWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_104_DriveStatus"
+          Index="104"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_105_AlrmCode"
+          Index="105"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="IR_107_SpeedRegister"
+          Index="107"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="IR_108_MotFreq_Hz"
+          Index="108"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="IR_109_MotAmp"
+          Index="109"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_110_MotPwr"
+          Index="110"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_111_MotVolt"
+          Index="111"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_112_Reserved"
+          Index="112"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_113_DCBusVoltage"
+          Index="113"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_114_DriveTemp"
+          Index="114"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_115_DriveLifeTime"
+          Index="115"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_116_DriveRunTime"
+          Index="116"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_117_DriveRunTimeFromLastAlrm"
+          Index="117"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="IR_118_kWh_Meter"
+          Index="118"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_119_MWh_Meter"
+          Index="119"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_120_DriveCommAddr"
+          Index="120"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_121_AddrDipSwitchVal"
+          Index="121"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_122_ModbusCommErr"
+          Index="122"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_123_ModbsuUartErrCode"
+          Index="123"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_124_OperatingSwitchingFreq"
+          Index="124"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="IR_125_PreRampOutput_SpeedRef"
+          Index="125"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="IR_126_PostRampOutput_SpeedRef"
+          Index="126"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_127_Reserved"
+          Index="127"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_128_Reserved"
+          Index="128"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_129_Reserved"
+          Index="129"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_130_Reserved"
+          Index="130"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_131_Reserved"
+          Index="131"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_132_RotorFreq"
+          Index="132"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_133_Reserved"
+          Index="133"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_134_DCBusRipple"
+          Index="134"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_135_Reserved"
+          Index="135"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_136_Reserved"
+          Index="136"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_137_AlrmLog1"
+          Index="137"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_138_AlrmLog2"
+          Index="138"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_139_AlrmLog3"
+          Index="139"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_140_AlrmLog4"
+          Index="140"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_141_BootLoaderRelease"
+          Index="141"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_142_FirmwareRelease"
+          Index="142"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_143_FirmwareCRC"
+          Index="143"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_144_MotCtrlRelease"
+          Index="144"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_145_SNo1"
+          Index="145"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_146_SNo2"
+          Index="146"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_147_SNo3"
+          Index="147"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_148_SNo4"
+          Index="148"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_149_HardwareIdentification"
+          Index="149"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_150_Reserved"
+          Index="150"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_151_Reserved"
+          Index="151"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_152_Reserved"
+          Index="152"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="IR_153_OvldMot_accumulator"
+          Index="153"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="IR_154_OvldDrive_accumulator"
+          Index="154"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_155_Reserved"
+          Index="155"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_156_Reserved"
+          Index="156"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_157_Reserved"
+          Index="157"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_158_Reserved"
+          Index="158"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_159_Reserved"
+          Index="159"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_160_Reserved"
+          Index="160"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_161_Reserved"
+          Index="161"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_162_Reserved"
+          Index="162"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_163_Reserved"
+          Index="163"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_164_Reserved"
+          Index="164"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_165_Reserved"
+          Index="165"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_166_Reserved"
+          Index="166"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_167_Reserved"
+          Index="167"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_168_Reserved"
+          Index="168"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_169_Reserved"
+          Index="169"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_170_Reserved"
+          Index="170"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_171_Reserved"
+          Index="171"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_172_Reserved"
+          Index="172"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_173_Reserved"
+          Index="173"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_174_Reserved"
+          Index="174"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_175_Reserved"
+          Index="175"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+      </Variables>
+      <Settings
+        ReportSlaveID="ReadOnline"
+        ReadCoilPoints="8"
+        WriteCoilPoints="8"
+        ReadRegisterPoints="50"
+        WriteRegisterPoints="1" />
+    </ModbusTemplate>
+    <ModbusTemplate
+      Name="MBM_TMPL_PWRP_uSAFE"
+      Protocol="Modbus"
+      Guid="f39ffc22-9d8b-4da3-b20c-14b54132be75">
+      <Variables>
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_00_ResetCommand"
+          Index="0"
+          Hysteresis="0"
+          RWMode="ReadPollWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_01_ResetFeedback"
+          Index="1"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_02_AlarmStatus1"
+          Index="2"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="WORD"
+          Name="HR_03_AlarmStatus2"
+          Index="3"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_04"
+          Index="4"
+          Hysteresis="0"
+          RWMode="ReadPollWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_50"
+          Index="50"
+          Hysteresis="0"
+          RWMode="ReadPollWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_54"
+          Index="54"
+          Hysteresis="0"
+          RWMode="ReadPollWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_55"
+          Index="55"
+          Hysteresis="0"
+          RWMode="ReadPollWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="HR_56"
+          Index="56"
+          Hysteresis="0"
+          RWMode="ReadPollWriteChange"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_35_CurrU"
+          Index="35"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_36_CurrV"
+          Index="36"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_37_CurrW"
+          Index="37"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_38_DCbusV"
+          Index="38"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_39_DCbusA"
+          Index="39"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_40_DCbusPwr"
+          Index="40"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_41"
+          Index="41"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_42"
+          Index="42"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_43"
+          Index="43"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_44"
+          Index="44"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_45"
+          Index="45"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_46"
+          Index="46"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_47"
+          Index="47"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_48"
+          Index="48"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_50"
+          Index="50"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_54"
+          Index="54"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="IR_57"
+          Index="57"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+      </Variables>
+      <Settings
+        ReadCoilPoints="8"
+        WriteCoilPoints="8"
+        ReadRegisterPoints="8"
+        WriteRegisterPoints="1" />
+    </ModbusTemplate>
+    <ModbusTemplate
+      Name="Cpcoe"
+      Protocol="Modbus"
+      Guid="bdc986cd-3df7-4ad6-bed3-59c48ce00bbb">
+      <Variables>
+        <ModbusVariable
+          DataType="ARRAY[1..10] OF REAL"
+          Name="UnivChs_VALUE"
+          Index="51"
+          Hysteresis="0"
+          RWMode="ReadPollWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="20" />
+        <ModbusVariable
+          DataType="ARRAY[1..10] OF INT"
+          Name="DOuts_VALUE"
+          Index="71"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="10" />
+        <ModbusVariable
+          DataType="ARRAY[1..10] OF INT"
+          Name="Errors_CPCOE"
+          Index="83"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputStatus"
+          Size="10" />
+        <ModbusVariable
+          DataType="ARRAY[1..10] OF INT"
+          Name="UnivChs_ChDir"
+          Index="93"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="10" />
+        <ModbusVariable
+          DataType="ARRAY[1..10] OF INT"
+          Name="UnivChs_ChTyp"
+          Index="103"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="10" />
+        <ModbusVariable
+          DataType="ARRAY[1..20] OF REAL"
+          Name="UnivChs_ActPrbMin_Max"
+          Index="113"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="40" />
+        <ModbusVariable
+          DataType="ARRAY[1..6] OF INT"
+          Name="DOuts_ChTyp"
+          Index="183"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="6" />
+      </Variables>
+      <Settings />
+    </ModbusTemplate>
+    <ModbusTemplate
+      Name="VavleDriver_probe"
+      Protocol="Modbus"
+      Guid="9007916a-6261-4dd5-aaf7-bb92fe2937a6">
+      <Variables>
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S1_ALARM_ENABLE"
+          Index="15"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="CoilStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S2_ALARM_ENABLE"
+          Index="16"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="CoilStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S3_ALARM_ENABLE"
+          Index="17"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="CoilStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S4_ALARM_ENABLE"
+          Index="18"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="CoilStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S1_ALARM"
+          Index="3"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S2_ALARM"
+          Index="4"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S3_ALARM"
+          Index="5"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="BOOL"
+          Name="Vlv_Probe_S4_ALARM"
+          Index="6"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputStatus"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S1_RANGE_MAX"
+          Index="29"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S3_RANGE_MAX"
+          Index="30"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S1_RANGE_MIN"
+          Index="31"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S3_RANGE_MIN"
+          Index="32"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S1_ALARM_THRESHOLD_HIGH"
+          Index="36"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S3_ALARM_THRESHOLD_HIGH"
+          Index="37"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S1_ALARM_THRESHOLD_LOW"
+          Index="38"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S3_ALARM_THRESHOLD_LOW"
+          Index="39"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S2_ALARM_THRESHOLD_HIGH"
+          Index="43"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S4_ALARM_THRESHOLD_HIGH"
+          Index="44"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S2_ALARM_THRESHOLD_LOW"
+          Index="45"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S4_ALARM_THRESHOLD_LOW"
+          Index="46"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S1_PROBE_TYPE"
+          Index="149"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S3_PROBE_TYPE"
+          Index="150"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S2_PROBE_TYPE"
+          Index="155"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S4_PROBE_TYPE"
+          Index="156"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S1_VALUE"
+          Index="0"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S2_VALUE"
+          Index="1"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S3_VALUE"
+          Index="2"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="REAL"
+          Name="Vlv_Probe_S4_VALUE"
+          Index="3"
+          Hysteresis="0"
+          RWMode="ReadPollNoWrite"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S1_ALARM_DELAY"
+          Index="258"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S2_ALARM_DELAY"
+          Index="259"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S3_ALARM_DELAY"
+          Index="260"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="INT"
+          Name="Vlv_Probe_S4_ALARM_DELAY"
+          Index="261"
+          Hysteresis="0"
+          RWMode="NoReadWriteChangeWriteOnline"
+          Kind="HoldingRegister"
+          Size="1" />
+      </Variables>
+      <Settings />
+    </ModbusTemplate>
+  </Templates>
+  <Configurations>
+    <Configuration
+      Name="MS_LocalNet"
+      ConfigurationTask="__CONFIGURATION__"
+      ResourceTask="__RESOURCE__"
+      Guid="cf53b2d035294ddfb14888acef93db85">
+      <MasterSettings
+        COMPort="FBUS1"
+        Zone="0"
+        DetectionRange="4"
+        PollingDelay="500" />
+      <Devices>
+        <Device
+          Path="Cpcoe_1"
+          Template="bdc986cd-3df7-4ad6-bed3-59c48ce00bbb">
+          <Settings />
+        </Device>
+      </Devices>
+    </Configuration>
+    <Configuration
+      Name="Line_cPCOe2"
+      ConfigurationTask="__CONFIGURATION__"
+      ResourceTask="__RESOURCE__"
+      Guid="c41da39650f4447fa9058baf158b90ec">
+      <MasterSettings
+        Zone="0" />
+      <Devices>
+        <Device
+          Path="Cpcoe_2"
+          Template="bdc986cd-3df7-4ad6-bed3-59c48ce00bbb">
+          <Settings />
+        </Device>
+      </Devices>
+    </Configuration>
+    <Configuration
+      Name="Line_cPCOe3"
+      ConfigurationTask="__CONFIGURATION__"
+      ResourceTask="__RESOURCE__"
+      Guid="b6d1b245ef834161a777643da7dbe206">
+      <MasterSettings
+        COMPort="FBUS2"
+        Zone="0" />
+      <Devices>
+        <Device
+          Path="Cpcoe_3"
+          Template="bdc986cd-3df7-4ad6-bed3-59c48ce00bbb">
+          <Settings
+            Ident="3" />
+        </Device>
+        <Device
+          Path="EVD_EVOinstance.DeviceEvdEvo"
+          Template="5c009e43-977d-4241-8997-e1ac14024fe9|Libs.EVD_EVO_PosVlvs_v1_0_2">
+          <Settings
+            Ident="2" />
+        </Device>
+        <Device
+          Path="ValveProbe"
+          Template="9007916a-6261-4dd5-aaf7-bb92fe2937a6">
+          <Settings
+            Ident="198" />
+        </Device>
+      </Devices>
+    </Configuration>
+  </Configurations>
+  <Devices />
+</MasterProtocolConfigurator>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="33"
+  Name="Fieldbus1"
+  Version="3.0"
+  EnableOn="FALSE"
+  ShowDummy="false"
+  StartingField="340" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="209"
+      Name="ShapeField209"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="210"
+      Name="TextField210"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="211"
+      Name="TextField211"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="213"
+      Name="TextField213"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="214"
+      Name="TextField214"
+      Row="5"
+      Column="0" />
+    <DataField
+      ID="215"
+      Name="DataField215"
+      Row="4"
+      Column="16"
+      Domain="USINT"
+      Presentation="IAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="FB1_Baud"
+      Min="0"
+      Max="8">
+      <IntStates>
+        <State
+          ID="7"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR7" />
+        <State
+          ID="8"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR8" />
+        <State
+          ID="6"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR6" />
+        <State
+          ID="5"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR5" />
+        <State
+          ID="4"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR4" />
+        <State
+          ID="3"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR3" />
+        <State
+          ID="2"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR2" />
+        <State
+          ID="1"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR1" />
+        <State
+          ID="0"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF215_MR0" />
+      </IntStates>
+    </DataField>
+    <DataField
+      ID="216"
+      Name="DataField216"
+      Row="5"
+      Column="16"
+      Domain="USINT"
+      Presentation="IAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="FB1_Conf"
+      Min="0"
+      Max="5">
+      <IntStates>
+        <State
+          ID="0"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF216_MR0" />
+        <State
+          ID="1"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF216_MR1" />
+        <State
+          ID="2"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF216_MR2" />
+        <State
+          ID="3"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF216_MR3" />
+        <State
+          ID="4"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF216_MR4" />
+        <State
+          ID="5"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF216_MR5" />
+      </IntStates>
+    </DataField>
+    <DataField
+      ID="296"
+      Name="DataField296"
+      Row="7"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="FB1_ChangeSet">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF296_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L20M33DF296_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextWidget
+      ID="340"
+      Name="TextWidget340"
+      Row="0"
+      Column="0"
+      Selectable="TRUE"
+      ClassName="AccessRightWidget">
+      <Members>
+        <Member
+          Name="LoginType"
+          Value="1" />
+      </Members>
+    </TextWidget>
+    <TextField
+      ID="388"
+      Name="TextField388"
+      Row="7"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

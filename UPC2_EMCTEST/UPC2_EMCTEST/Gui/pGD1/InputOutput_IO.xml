@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="23"
+  Name="IO"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="124"
+      Name="ShapeField124"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="125"
+      Name="TextField125"
+      Row="0"
+      Column="1" />
+    <DataField
+      ID="281"
+      Name="DataField281"
+      Row="2"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="Prg_InputMng.Din1">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L17M23DF281_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L17M23DF281_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="282"
+      Name="TextField282"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="285"
+      Name="TextField285"
+      Row="5"
+      Column="0" />
+    <DataField
+      ID="286"
+      Name="DataField286"
+      Row="5"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="GblAlarm">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L17M23DF286_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L17M23DF286_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="288"
+      Name="TextField288"
+      Row="7"
+      Column="0" />
+    <DataField
+      ID="289"
+      Name="DataField289"
+      Row="7"
+      Column="16"
+      Domain="REAL"
+      Presentation="VariableWithUoM"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ShowUoM="true"
+      ZeroSuppression="true"
+      FormatString="rrr.r"
+      VariableName="Prg_OutputMng.AOut1"
+      Min="0.0"
+      Max="100.0"
+      UoM="%" />
+    <TextField
+      ID="314"
+      Name="TextField314"
+      Row="3"
+      Column="0" />
+    <DataField
+      ID="316"
+      Name="DataField316"
+      Row="3"
+      Column="15"
+      Domain="REAL"
+      Presentation="VariableWithUoM"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="2"
+      ShowUoM="true"
+      ZeroSuppression="true"
+      FormatString="-rr.r"
+      VariableName="Prg_InputMng.Ain1Val"
+      Min="-99.9"
+      Max="99.9"
+      UoM="°C" />
+  </MaskElements>
+</BaseMaskData>

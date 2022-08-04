@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="0"
+  Name="CompanyLogo"
+  Version="3.0"
+  ShowDummy="false" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Actions>
+    <Action
+      KeyName="KEY_ENTER"
+      FileName="Act_GotoMainMSK.st"
+      FunctionName="Act_GotoMainMSK"
+      Call="Act_GotoMainMSK(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_UP"
+      FunctionName="GoToPreviousMask"
+      Call="GoToPreviousMask();"
+      Type="Single" />
+  </Actions>
+  <MaskElements>
+    <ImageField
+      ID="0"
+      Name="ImageField0"
+      Row="1"
+      Column="0"
+      Domain="Image"
+      Presentation="image"
+      Selectable="FALSE"
+      Nickname="logo_carel_132x64"
+      X="0"
+      Y="8">
+      <Actions>
+        <Action
+          KeyName="KEY_ENTER"
+          FileName="Act_GotoMainMSK.st"
+          FunctionName="Act_GotoMainMSK"
+          Call="Act_GotoMainMSK(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+    </ImageField>
+  </MaskElements>
+</BaseMaskData>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="7"
+  Name="SysInfo3"
+  Version="3.0"
+  ShowDummy="false" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="6"
+      Name="ShapeField6"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="105"
+      Name="TextField105"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="106"
+      Name="TextField106"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="107"
+      Name="TextField107"
+      Row="4"
+      Column="0" />
+    <DataField
+      ID="380"
+      Name="DataField380"
+      Row="3"
+      Column="12"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="10"
+      ZeroSuppression="true"
+      FormatString="iiiiiiiiii"
+      VariableName="RetainWrN"
+      Min="0"
+      Max="4294967295" />
+    <DataField
+      ID="381"
+      Name="DataField381"
+      Row="5"
+      Column="10"
+      Domain="UDINT"
+      Presentation="VariableWithUoM"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="10"
+      ShowUoM="true"
+      ZeroSuppression="true"
+      FormatString="iiiiiiiiii"
+      VariableName="TaskMainExeT"
+      Min="0"
+      Max="4294967295"
+      UoM="ms" />
+    <DataField
+      ID="382"
+      Name="DataField382"
+      Row="6"
+      Column="12"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="TaskMainLiveCnt"
+      Min="0"
+      Max="65535" />
+    <TextField
+      ID="383"
+      Name="TextField383"
+      Row="6"
+      Column="17" />
+  </MaskElements>
+</BaseMaskData>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="1"
+  Name="ValveMask"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <DataField
+      ID="7"
+      Name="DataField7"
+      Row="2"
+      Column="5"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="Evd_position[1]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="543"
+      Name="DataField8"
+      Row="4"
+      Column="5"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="Evd_position[2]"
+      Min="0"
+      Max="1000" />
+    <TextField
+      ID="9"
+      Name="TextField9"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="10"
+      Name="TextField10"
+      Row="2"
+      Column="2" />
+    <TextField
+      ID="11"
+      Name="TextField11"
+      Row="4"
+      Column="2" />
+    <DataField
+      ID="13"
+      Name="DataField13"
+      Row="2"
+      Column="10"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="Evd_struct[1].CurrentEstimatedPosition"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="14"
+      Name="DataField14"
+      Row="4"
+      Column="10"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="Evd_struct[2].CurrentEstimatedPosition"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="15"
+      Name="DataField15"
+      Row="2"
+      Column="16"
+      Domain="USINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="Evd_struct[1].Alarms"
+      Min="0"
+      Max="255" />
+    <DataField
+      ID="16"
+      Name="DataField16"
+      Row="4"
+      Column="16"
+      Domain="USINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="Evd_struct[2].Alarms"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="19"
+      Name="TextField19"
+      Row="1"
+      Column="6" />
+    <TextField
+      ID="544"
+      Name="TextField544"
+      Row="1"
+      Column="12" />
+    <TextField
+      ID="545"
+      Name="TextField545"
+      Row="1"
+      Column="16" />
+    <TextField
+      ID="248"
+      Name="TextField248"
+      Row="7"
+      Column="0" />
+    <DataField
+      ID="250"
+      Name="DataField250"
+      Row="7"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="EvdAutoSwingFast">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M1DF250_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M1DF250_MRF" />
+      </BoolStates>
+    </DataField>
+  </MaskElements>
+</BaseMaskData>

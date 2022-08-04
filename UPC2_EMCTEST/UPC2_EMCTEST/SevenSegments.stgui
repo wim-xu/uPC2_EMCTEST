@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GuiData
+  ID="1"
+  Name="SevenSegments"
+  Version="2.2"
+  DefaultZone="NO"
+  TranslationsMode="GenerateForCurrentLanguage"
+  DefaultDateFormat="DDMMYYYY"
+  TerminalName="SevenSegments">
+  <Leds>
+    <Led
+      Name="UP"
+      BlinkingCondition="SevenSegments.gui.blink"
+      OnCondition="NOT SevenSegments.gui.blink" />
+    <Led
+      Name="DOWN"
+      BlinkingCondition="SevenSegments.gui.blink"
+      OnCondition="NOT SevenSegments.gui.blink" />
+    <Led
+      Name="PRG"
+      OnCondition="TRUE" />
+  </Leds>
+  <Loops>
+    <Loop
+      ID="0"
+      Name="Loop0">
+      <Masks>
+        <FileName>Loop0_Mask0.xml</FileName>
+      </Masks>
+    </Loop>
+  </Loops>
+</GuiData>

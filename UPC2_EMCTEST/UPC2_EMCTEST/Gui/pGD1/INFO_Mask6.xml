@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="6"
+  Name="SysInfo2"
+  Version="3.0"
+  ShowDummy="false" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="5"
+      Name="ShapeField5"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="100"
+      Name="TextField100"
+      Row="0"
+      Column="1" />
+    <DataField
+      ID="101"
+      Name="DataField101"
+      Row="3"
+      Column="16"
+      Domain="UINT"
+      Presentation="IAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="BoardType"
+      Min="0"
+      Max="65535">
+      <IntStates>
+        <State
+          ID="11"
+          Type="Text"
+          TranslationKey="pGD1_L5M6DF101_MR11" />
+        <State
+          ID="13"
+          Type="Text"
+          TranslationKey="pGD1_L5M6DF101_MR13" />
+        <State
+          ID="10"
+          Type="Text"
+          TranslationKey="pGD1_L5M6DF101_MR10" />
+        <State
+          ID="12"
+          Type="Text"
+          TranslationKey="pGD1_L5M6DF101_MR12" />
+      </IntStates>
+    </DataField>
+    <TextField
+      ID="102"
+      Name="TextField102"
+      Row="3"
+      Column="0" />
+    <TextWidget
+      ID="303"
+      Name="GUIDWidget303"
+      Row="5"
+      Column="0"
+      Selectable="FALSE"
+      ClassName="GUIDWidget">
+      <Members />
+    </TextWidget>
+    <DataField
+      ID="390"
+      Name="DataField390"
+      Row="2"
+      Column="13"
+      Domain="UINT"
+      Presentation="IAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="DeviceType"
+      Min="0"
+      Max="65535">
+      <IntStates>
+        <State
+          ID="12"
+          Type="Text"
+          TranslationKey="pGD1_L5M6DF390_MR12" />
+        <State
+          ID="13"
+          Type="Text"
+          TranslationKey="pGD1_L5M6DF390_MR13" />
+      </IntStates>
+    </DataField>
+    <TextField
+      ID="391"
+      Name="TextField391"
+      Row="2"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

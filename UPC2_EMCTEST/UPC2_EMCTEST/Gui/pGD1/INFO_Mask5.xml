@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="5"
+  Name="SwInfo1"
+  Version="3.0"
+  ShowDummy="false" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="4"
+      Name="ShapeField4"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="26"
+      Name="TextField26"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="28"
+      Name="TextField28"
+      Row="3"
+      Column="0" />
+    <TextWidget
+      ID="304"
+      Name="BOOT_FW_SW_Widget304"
+      Row="5"
+      Column="0"
+      Selectable="FALSE"
+      ClassName="BOOT_FW_SW_Widget">
+      <Members />
+    </TextWidget>
+    <ConstantField
+      ID="384"
+      Name="ConstantField384"
+      Row="3"
+      Column="7"
+      Domain="STRING"
+      VariableName="PROJ_NAME" />
+    <ConstantField
+      ID="385"
+      Name="ConstantField385"
+      Row="2"
+      Column="0"
+      Domain="STRING"
+      VariableName="PROJ_VENDOR" />
+  </MaskElements>
+</BaseMaskData>

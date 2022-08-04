@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="18"
+  Name="AlarmsMsk"
+  Version="3.0"
+  StartingField="269" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <GraphicWidget
+      ID="269"
+      Name="AlarmsWidget"
+      Row="0"
+      Column="0"
+      Selectable="FALSE"
+      ClassName="AlarmsWidget">
+      <Members>
+        <Member
+          Name="AlarmDescr"
+          Value="AlarmDescr" />
+        <Member
+          Name="StoreVarDesc1"
+          Value="StoreVarDesc1" />
+        <Member
+          Name="StoreVarDesc2"
+          Value="StoreVarDesc2" />
+      </Members>
+    </GraphicWidget>
+  </MaskElements>
+</BaseMaskData>

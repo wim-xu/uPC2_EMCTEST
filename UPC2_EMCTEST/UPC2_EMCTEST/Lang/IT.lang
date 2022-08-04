@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlLanguage Key="IT">
+  <Sections>
+    <Section Name="pGD1" Priority="1" EmbedTranslation="true" Font="CAREL_TERM_STD">
+      <Items>
+        <Item Key="pGD1_L1M15TF62" Value="Lingua" />
+        <Item Key="pGD1_L1M15TF63" Value="Lingua:" />
+        <Item Key="pGD1_L1M15TF64" Value="SU/GIU per cambiare" />
+        <Item Key="pGD1_L1M15TF65" Value="INVIO per confermare" />
+        <Item Key="pGD1_L2M2TF12" Value="Stato unita:" />
+        <Item Key="pGD1_L2M2DF32_MR0" Value="WAIT..." />
+        <Item Key="pGD1_L2M2DF32_MR1" Value="ON" />
+        <Item Key="pGD1_L2M2DF32_MR2" Value="OFF BY ALARM" />
+        <Item Key="pGD1_L2M2DF32_MR3" Value="OFF BY BMS" />
+        <Item Key="pGD1_L2M2DF32_MR6" Value="d" />
+        <Item Key="pGD1_L2M2DF32_MR5" Value="g" />
+        <Item Key="pGD1_L2M2TF271" Value="Ain1:" />
+        <Item Key="pGD1_L3M3TF23" Value="Unit On/Off" />
+        <Item Key="pGD1_L4M4TF24" Value="Set" />
+        <Item Key="pGD1_L4M4TF25" Value="Setpoint:" />
+        <Item Key="pGD1_L5M5TF26" Value="Info" />
+        <Item Key="pGD1_L5M5TF28" Value="Code:" />
+        <Item Key="pGD1_L5M6TF100" Value="Info" />
+        <Item Key="pGD1_L5M6DF101_MR11" Value="pCO5+HS " />
+        <Item Key="pGD1_L5M6DF101_MR13" Value="p" />
+        <Item Key="pGD1_L5M6DF101_MR10" Value="pCO5+HS " />
+        <Item Key="pGD1_L5M6DF101_MR12" Value="pCO5+HS " />
+        <Item Key="pGD1_L5M6TF102" Value="Board type:" />
+        <Item Key="pGD1_L5M6DF390_MR12" Value="pCO5+HS" />
+        <Item Key="pGD1_L5M6DF390_MR13" Value="p" />
+        <Item Key="pGD1_L5M6TF391" Value="Device type:" />
+        <Item Key="pGD1_L5M7TF105" Value="Info" />
+        <Item Key="pGD1_L5M7TF106" Value="Ret mem writes:" />
+        <Item Key="pGD1_L5M7TF107" Value="Main task:" />
+        <Item Key="pGD1_L5M7TF383" Value="Cycle/s" />
+        <Item Key="pGD1_L5M40TF393" Value="Info" />
+        <Item Key="pGD1_L5M40TF395" Value="EEPROM size:" />
+        <Item Key="pGD1_L5M40TF397" Value="FLASH size:" />
+        <Item Key="pGD1_L5M40TF398" Value="RAM size:" />
+        <Item Key="pGD1_L5M40TF401" Value="RTC type:" />
+        <Item Key="pGD1_L5M40TF403" Value="Core:" />
+        <Item Key="pGD1_L5M39TF345" Value="Blackout info" />
+        <Item Key="pGD1_L5M39TF347" Value="Info" />
+        <Item Key="pGD1_L5M39TF348" Value="Current time:" />
+        <Item Key="pGD1_L5M39TF349" Value="PowerOff time:" />
+        <Item Key="pGD1_L5M39TF350" Value="Length last time off:" />
+        <Item Key="pGD1_L5M39TF351" Value="Days    Hrs    Min" />
+        <Item Key="pGD1_L5M39DF353_FT" Value="0" />
+        <Item Key="pGD1_L5M39DF354_FT" Value="0" />
+        <Item Key="pGD1_L5M39DF355_FT" Value="0" />
+        <Item Key="pGD1_L5M39TF356" Value=":" />
+        <Item Key="pGD1_L5M39TF357" Value=":" />
+        <Item Key="pGD1_L5M39TF361" Value="/" />
+        <Item Key="pGD1_L5M39TF362" Value="/" />
+        <Item Key="pGD1_L5M39TF363" Value=":" />
+        <Item Key="pGD1_L5M39TF364" Value=":" />
+        <Item Key="pGD1_L5M39DF365_FT" Value="0" />
+        <Item Key="pGD1_L5M39DF366_FT" Value="0" />
+        <Item Key="pGD1_L5M39DF367_FT" Value="0" />
+        <Item Key="pGD1_L5M39DF368_FT" Value="0" />
+        <Item Key="pGD1_L5M39DF369_FT" Value="0" />
+        <Item Key="pGD1_L5M39TF371" Value="/" />
+        <Item Key="pGD1_L5M39TF372" Value="/" />
+        <Item Key="pGD1_L5M39DF373_FT" Value="0" />
+        <Item Key="pGD1_L5M39DF374_FT" Value="0" />
+        <Item Key="pGD1_L8M11TF21" Value="Login" />
+        <Item Key="pGD1_L8M11TF22" Value="Insert password:" />
+        <Item Key="pGD1_L8M11TF52" Value="Wrong Password!" />
+        <Item Key="pGD1_L17M23TF125" Value="I/O" />
+        <Item Key="pGD1_L17M23DF281_MRT" Value="O" />
+        <Item Key="pGD1_L17M23DF281_MRF" Value="OFF" />
+        <Item Key="pGD1_L17M23TF282" Value="Din1 (Remote al.):" />
+        <Item Key="pGD1_L17M23TF285" Value="Dout1 (OR alarms):" />
+        <Item Key="pGD1_L17M23DF286_MRT" Value=" ON" />
+        <Item Key="pGD1_L17M23DF286_MRF" Value="OFF" />
+        <Item Key="pGD1_L17M23TF288" Value="AOut1:" />
+        <Item Key="pGD1_L17M23TF314" Value="Ain1:" />
+        <Item Key="pGD1_L16M22TF126" Value="Device 1" />
+        <Item Key="pGD1_L16M22TAF379" Value="Move here the parameters of Device 1." />
+        <Item Key="pGD1_L15M21TF127" Value="Device 1" />
+        <Item Key="pGD1_L15M21TAF306" Value="Place here parameters of &quot;Device 1&quot;." />
+        <Item Key="pGD1_L14M20TF128" Value="Device 1" />
+        <Item Key="pGD1_L14M20TAF307" Value="Place here parameters of &quot;Device 1&quot;." />
+        <Item Key="pGD1_L13M19TF130" Value="Unit Cfg." />
+        <Item Key="pGD1_L13M19DF404_MRT" Value="YES" />
+        <Item Key="pGD1_L13M19DF404_MRF" Value="OFF" />
+        <Item Key="pGD1_L13M19TF405" Value="Enable ON/OFF by BMS:" />
+        <Item Key="pGD1_L13M19DF406_MRT" Value=" ON" />
+        <Item Key="pGD1_L13M19DF406_MRF" Value="OFF" />
+        <Item Key="pGD1_L13M19TF407" Value="Unit ON/OFF status:" />
+        <Item Key="pGD1_L6M37TF321" Value="Access rights" />
+        <Item Key="pGD1_L6M37TF322" Value="Press ESC to go back" />
+        <Item Key="pGD1_L6M37TF324" Value="Insert Service" />
+        <Item Key="pGD1_L6M37TF325" Value="password to modify" />
+        <Item Key="pGD1_L6M37TF326" Value="Service parameters" />
+        <Item Key="pGD1_L6M38TF328" Value="Access rights" />
+        <Item Key="pGD1_L6M38TF329" Value="Press ESC to go back" />
+        <Item Key="pGD1_L6M38TF331" Value="Insert Manufacturer" />
+        <Item Key="pGD1_L6M38TF332" Value="password to modify" />
+        <Item Key="pGD1_L6M38TF333" Value="Manufactur.parameters" />
+        <Item Key="pGD1_L7M36TF258" Value="ATTENZIONE" />
+        <Item Key="pGD1_L7M36DF263_MRF" Value=" " />
+        <Item Key="pGD1_L7M36DF263_MRT" Value=" " />
+        <Item Key="pGD1_L7M36DF264_MRT" Value=" " />
+        <Item Key="pGD1_L7M36DF264_MRF" Value="running..." />
+        <Item Key="pGD1_L7M36TF265" Value="INIZIALIZZAZIONE" />
+        <Item Key="pGD1_L7M36DF266_MRT" Value="  " />
+        <Item Key="pGD1_L7M36DF266_MRF" Value="In corso..." />
+        <Item Key="pGD1_L7M36DF267_MRF" Value="Please wait" />
+        <Item Key="pGD1_L7M36DF267_MRT" Value=" " />
+        <Item Key="pGD1_L7M36TF268" Value="IT" />
+        <Item Key="pGD1_L10M31TF167" Value="Fuso orario" />
+        <Item Key="pGD1_L10M16TF80" Value="Date/Time change" />
+        <Item Key="pGD1_L10M16TF81" Value="Format:" />
+        <Item Key="pGD1_L10M16TF82" Value="Date:" />
+        <Item Key="pGD1_L10M16TF83" Value="Hour:" />
+        <Item Key="pGD1_L10M16TF84" Value="Day:" />
+        <Item Key="pGD1_L10M16DF92_MR3" Value="Wednesday" />
+        <Item Key="pGD1_L10M16DF92_MR1" Value="Monday" />
+        <Item Key="pGD1_L10M16DF92_MR0" Value="Sunday" />
+        <Item Key="pGD1_L10M16DF92_MR2" Value="Tuesday" />
+        <Item Key="pGD1_L10M16DF92_MR4" Value="Thursday" />
+        <Item Key="pGD1_L10M16DF92_MR5" Value="Friday" />
+        <Item Key="pGD1_L10M16DF92_MR6" Value="Saturday" />
+        <Item Key="pGD1_L10M16DF179_MR0" Value="DD" />
+        <Item Key="pGD1_L10M16DF179_MR1" Value="MM" />
+        <Item Key="pGD1_L10M16DF179_MR2" Value="YY" />
+        <Item Key="pGD1_L10M16DF191_FT" Value="0" />
+        <Item Key="pGD1_L10M16TF192" Value=":" />
+        <Item Key="pGD1_L10M16DF194_FT" Value="0" />
+        <Item Key="pGD1_L10M16DF231_FT" Value="0" />
+        <Item Key="pGD1_L10M16DF233_FT" Value="0" />
+        <Item Key="pGD1_L10M16DF234_FT" Value="20" />
+        <Item Key="pGD1_L10M16TF235" Value="/" />
+        <Item Key="pGD1_L10M16TF236" Value="/" />
+        <Item Key="pGD1_L10M16DF237_FT" Value="0" />
+        <Item Key="pGD1_L10M16TF238" Value=":" />
+        <Item Key="pGD1_L19M25TF165" Value="User Interface UoM" />
+        <Item Key="pGD1_L19M25DF198_MR1" Value="SI" />
+        <Item Key="pGD1_L19M25DF198_MR2" Value="IMPERIAL" />
+        <Item Key="pGD1_L19M25DF198_MR0" Value="NONE" />
+        <Item Key="pGD1_L20M26TF151" Value="BMS1" />
+        <Item Key="pGD1_L20M26TF153" Value="Baudrate:" />
+        <Item Key="pGD1_L20M26TF156" Value="Address:" />
+        <Item Key="pGD1_L20M26DF205_MR7" Value="115200" />
+        <Item Key="pGD1_L20M26DF205_MR8" Value="375000" />
+        <Item Key="pGD1_L20M26DF205_MR6" Value="5" />
+        <Item Key="pGD1_L20M26DF205_MR5" Value="3" />
+        <Item Key="pGD1_L20M26DF205_MR4" Value="19200" />
+        <Item Key="pGD1_L20M26DF205_MR3" Value="9600" />
+        <Item Key="pGD1_L20M26DF205_MR2" Value="4800" />
+        <Item Key="pGD1_L20M26DF205_MR1" Value="2400" />
+        <Item Key="pGD1_L20M26DF205_MR0" Value="120" />
+        <Item Key="pGD1_L20M26DF206_MR0" Value="i" />
+        <Item Key="pGD1_L20M26DF206_MR1" Value=", 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M26DF206_MR2" Value=", 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M26DF206_MR3" Value=", 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M26DF206_MR4" Value=" 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M26DF206_MR5" Value=", 5=ODD-2" />
+        <Item Key="pGD1_L20M26TF207" Value="Parity:" />
+        <Item Key="pGD1_L20M26TF208" Value="Protocol:" />
+        <Item Key="pGD1_L20M26DF294_MRT" Value="YES" />
+        <Item Key="pGD1_L20M26DF294_MRF" Value=" NO" />
+        <Item Key="pGD1_L20M26TF386" Value="Appaly?" />
+        <Item Key="pGD1_L20M30TF159" Value="Protocol:" />
+        <Item Key="pGD1_L20M30TF160" Value="Baudrate:" />
+        <Item Key="pGD1_L20M30TF162" Value="Parity:" />
+        <Item Key="pGD1_L20M30TF163" Value="Address:" />
+        <Item Key="pGD1_L20M30TF164" Value="BMS2" />
+        <Item Key="pGD1_L20M30DF201_MR7" Value="115200" />
+        <Item Key="pGD1_L20M30DF201_MR8" Value="375000" />
+        <Item Key="pGD1_L20M30DF201_MR6" Value="5" />
+        <Item Key="pGD1_L20M30DF201_MR5" Value="3" />
+        <Item Key="pGD1_L20M30DF201_MR4" Value="19200" />
+        <Item Key="pGD1_L20M30DF201_MR3" Value="9600" />
+        <Item Key="pGD1_L20M30DF201_MR2" Value="4800" />
+        <Item Key="pGD1_L20M30DF201_MR1" Value="2400" />
+        <Item Key="pGD1_L20M30DF201_MR0" Value="120" />
+        <Item Key="pGD1_L20M30DF202_MR0" Value="i" />
+        <Item Key="pGD1_L20M30DF202_MR1" Value=", 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M30DF202_MR2" Value=", 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M30DF202_MR3" Value=", 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M30DF202_MR4" Value=" 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M30DF202_MR5" Value=", 5=ODD-2" />
+        <Item Key="pGD1_L20M30DF292_MRT" Value="YES" />
+        <Item Key="pGD1_L20M30DF292_MRF" Value=" NO" />
+        <Item Key="pGD1_L20M30TF387" Value="Appaly?" />
+        <Item Key="pGD1_L20M33TF210" Value="BMS1" />
+        <Item Key="pGD1_L20M33TF211" Value="Protocol:" />
+        <Item Key="pGD1_L20M33TF213" Value="Baudrate:" />
+        <Item Key="pGD1_L20M33TF214" Value="Parity:" />
+        <Item Key="pGD1_L20M33DF215_MR7" Value="115200" />
+        <Item Key="pGD1_L20M33DF215_MR8" Value="375000" />
+        <Item Key="pGD1_L20M33DF215_MR6" Value="5" />
+        <Item Key="pGD1_L20M33DF215_MR5" Value="3" />
+        <Item Key="pGD1_L20M33DF215_MR4" Value="19200" />
+        <Item Key="pGD1_L20M33DF215_MR3" Value="9600" />
+        <Item Key="pGD1_L20M33DF215_MR2" Value="4800" />
+        <Item Key="pGD1_L20M33DF215_MR1" Value="2400" />
+        <Item Key="pGD1_L20M33DF215_MR0" Value="120" />
+        <Item Key="pGD1_L20M33DF216_MR0" Value="i" />
+        <Item Key="pGD1_L20M33DF216_MR1" Value=", 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M33DF216_MR2" Value=", 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M33DF216_MR3" Value=", 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M33DF216_MR4" Value=" 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M33DF216_MR5" Value=", 5=ODD-2" />
+        <Item Key="pGD1_L20M33DF296_MRT" Value="YES" />
+        <Item Key="pGD1_L20M33DF296_MRF" Value=" NO" />
+        <Item Key="pGD1_L20M33TF388" Value="Appaly?" />
+        <Item Key="pGD1_L20M34TF218" Value="BMS1" />
+        <Item Key="pGD1_L20M34TF219" Value="Protocol:" />
+        <Item Key="pGD1_L20M34TF220" Value="Baudrate:" />
+        <Item Key="pGD1_L20M34TF221" Value="Parity:" />
+        <Item Key="pGD1_L20M34DF222_MR7" Value="115200" />
+        <Item Key="pGD1_L20M34DF222_MR8" Value="375000" />
+        <Item Key="pGD1_L20M34DF222_MR6" Value="5" />
+        <Item Key="pGD1_L20M34DF222_MR5" Value="3" />
+        <Item Key="pGD1_L20M34DF222_MR4" Value="19200" />
+        <Item Key="pGD1_L20M34DF222_MR3" Value="9600" />
+        <Item Key="pGD1_L20M34DF222_MR2" Value="4800" />
+        <Item Key="pGD1_L20M34DF222_MR1" Value="2400" />
+        <Item Key="pGD1_L20M34DF222_MR0" Value="120" />
+        <Item Key="pGD1_L20M34DF223_MR0" Value="i" />
+        <Item Key="pGD1_L20M34DF223_MR1" Value=", 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M34DF223_MR2" Value=", 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M34DF223_MR3" Value=", 3=EVEN-2, 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M34DF223_MR4" Value=" 4=ODD-1, 5=ODD-2" />
+        <Item Key="pGD1_L20M34DF223_MR5" Value=", 5=ODD-2" />
+        <Item Key="pGD1_L20M34DF298_MRT" Value="YES" />
+        <Item Key="pGD1_L20M34DF298_MRF" Value=" NO" />
+        <Item Key="pGD1_L20M34TF389" Value="Appaly?" />
+        <Item Key="pGD1_L21M27TF149" Value="Cambio Password" />
+        <Item Key="pGD1_L21M27DF239_FT" Value="000" />
+        <Item Key="pGD1_L21M27TF240" Value="Manufact.:" />
+        <Item Key="pGD1_L21M27TF241" Value="Service:" />
+        <Item Key="pGD1_L21M27TF242" Value="User:" />
+        <Item Key="pGD1_L21M27TF243" Value="System:" />
+        <Item Key="pGD1_L21M27DF244_FT" Value="000" />
+        <Item Key="pGD1_L21M27DF245_FT" Value="000" />
+        <Item Key="pGD1_L21M27DF246_FT" Value="000" />
+        <Item Key="pGD1_L22M28TF140" Value="Inizializzazione" />
+        <Item Key="pGD1_L22M28TF141" Value="Inizializ. Allarmi" />
+        <Item Key="pGD1_L22M28TF145" Value="Abilitare buzzer?" />
+        <Item Key="pGD1_L22M28TAF146" Value="Cancellare storico?" />
+        <Item Key="pGD1_L22M28TAF147" Value="Pulire contatori      a rest auto?" />
+        <Item Key="pGD1_L22M28DF252_MRT" Value="YES" />
+        <Item Key="pGD1_L22M28DF252_MRF" Value=" NO" />
+        <Item Key="pGD1_L22M28DF319_MRT" Value="YES" />
+        <Item Key="pGD1_L22M28DF319_MRF" Value="NO" />
+        <Item Key="pGD1_L22M35TF255" Value="Inizializzazione" />
+        <Item Key="pGD1_L22M35TF256" Value="DEFAULT INSTALLATION?" />
+        <Item Key="pGD1_L22M35DF257_MRT" Value="YES" />
+        <Item Key="pGD1_L22M35DF257_MRF" Value=" " />
+        <Item Key="pGD1_L24M32TF174" Value="Logout" />
+        <Item Key="pGD1_L24M32TAF176" Value="You are       logged as" />
+        <Item Key="pGD1_L24M32TAF177" Value="Press ENTER   to logout" />
+        <Item Key="pGD1_L24M32DF178_MR0" Value="USER" />
+        <Item Key="pGD1_L24M32DF178_MR1" Value="SERVICE" />
+        <Item Key="pGD1_L24M32DF178_MR2" Value="MANU" />
+        <Item Key="pGD1_L24M32DF178_MR3" Value="SYSTEM" />
+        <Item Key="pGD1_L25M41TF506" Value="STONE Heos Test " />
+        <Item Key="pGD1_L25M41TF507" Value="m" />
+        <Item Key="pGD1_L25M41TF87" Value="Date" />
+        <Item Key="pGD1_L25M41TF508" Value="On time" />
+        <Item Key="pGD1_L25M41TF129" Value="s" />
+        <Item Key="pGD1_L25M42TF66" Value="Analog Input 1-10" />
+        <Item Key="pGD1_L25M42TF77" Value="1:" />
+        <Item Key="pGD1_L25M42TF78" Value="2:" />
+        <Item Key="pGD1_L25M42TF514" Value="3:" />
+        <Item Key="pGD1_L25M42TF515" Value="4:" />
+        <Item Key="pGD1_L25M42TF516" Value="5:" />
+        <Item Key="pGD1_L25M42TF517" Value="6:" />
+        <Item Key="pGD1_L25M42TF518" Value="7:" />
+        <Item Key="pGD1_L25M42TF519" Value="8:" />
+        <Item Key="pGD1_L25M42TF85" Value="9:" />
+        <Item Key="pGD1_L25M42TF86" Value="10:" />
+        <Item Key="pGD1_L25M43TF678" Value="3:" />
+        <Item Key="pGD1_L25M9TF190" Value="Analog Input 11-16" />
+        <Item Key="pGD1_L25M43TF676" Value="3:" />
+        <Item Key="pGD1_L25M9TF526" Value="12:" />
+        <Item Key="pGD1_L25M9TF527" Value="11:" />
+        <Item Key="pGD1_L25M43TF118" Value="Analog out Y values" />
+        <Item Key="pGD1_L25M43TF528" Value="3:" />
+        <Item Key="pGD1_L25M43TF529" Value="2:" />
+        <Item Key="pGD1_L25M43TF530" Value="1:" />
+        <Item Key="pGD1_L25M44TF454" Value="Analog out Uni 1-10" />
+        <Item Key="pGD1_L25M44TF456" Value="14:" />
+        <Item Key="pGD1_L25M44TF457" Value="13:" />
+        <Item Key="pGD1_L25M44TF459" Value="12:" />
+        <Item Key="pGD1_L25M44TF461" Value="11:" />
+        <Item Key="pGD1_L25M44TF469" Value="10:" />
+        <Item Key="pGD1_L25M44TF472" Value="9:" />
+        <Item Key="pGD1_L25M44TF473" Value="2:" />
+        <Item Key="pGD1_L25M44TF474" Value="3:" />
+        <Item Key="pGD1_L25M44TF475" Value="4:" />
+        <Item Key="pGD1_L25M44TF476" Value="5:" />
+        <Item Key="pGD1_L25M44TF477" Value="7:" />
+        <Item Key="pGD1_L25M44TF478" Value="6:" />
+        <Item Key="pGD1_L25M44TF479" Value="1:" />
+        <Item Key="pGD1_L25M44TF482" Value="8:" />
+        <Item Key="pGD1_L25M45TF497" Value="Analog out Uni 15-16" />
+        <Item Key="pGD1_L25M45TF499" Value="16:" />
+        <Item Key="pGD1_L25M45TF500" Value="15:" />
+        <Item Key="pGD1_L25M46TF534" Value="Relay &amp; RGB led status" />
+        <Item Key="pGD1_L25M46TF96" Value="1:" />
+        <Item Key="pGD1_L25M46TF97" Value="2:" />
+        <Item Key="pGD1_L25M46TF98" Value="3:" />
+        <Item Key="pGD1_L25M46TF99" Value="4:" />
+        <Item Key="pGD1_L25M46TF535" Value="5:" />
+        <Item Key="pGD1_L25M46TF536" Value="6:" />
+        <Item Key="pGD1_L25M46DF318_MR1" Value="__B" />
+        <Item Key="pGD1_L25M46DF318_MR4" Value="R__" />
+        <Item Key="pGD1_L25M46DF318_MR5" Value="R_B" />
+        <Item Key="pGD1_L25M46DF318_MR6" Value="RG_" />
+        <Item Key="pGD1_L25M46DF318_MR7" Value="RGB" />
+        <Item Key="pGD1_L25M46DF318_MR2" Value="_G_" />
+        <Item Key="pGD1_L25M46DF318_MR3" Value="_GB" />
+        <Item Key="pGD1_L25M46DF318_MR0" Value="OFF" />
+        <Item Key="pGD1_L25M46TF540" Value="RGB_LED:" />
+        <Item Key="pGD1_L25M46TF541" Value="GTW_ON_OFF:" />
+        <Item Key="pGD1_L25M46DF542_MRT" Value="ON" />
+        <Item Key="pGD1_L25M46DF542_MRF" Value="OFF" />
+        <Item Key="pGD1_L25M46TF502" Value="TEST_TIM_NO1:" />
+        <Item Key="pGD1_L25M46DF503_MRT" Value="ON" />
+        <Item Key="pGD1_L25M46DF503_MRF" Value="OFF" />
+        <Item Key="pGD1_L25M1TF9" Value="Valve status &amp; control" />
+        <Item Key="pGD1_L25M1TF10" Value="V1:" />
+        <Item Key="pGD1_L25M1TF11" Value="V2:" />
+        <Item Key="pGD1_L25M1TF19" Value="Pos" />
+        <Item Key="pGD1_L25M1TF544" Value="Act" />
+        <Item Key="pGD1_L25M1TF545" Value="Alm" />
+        <Item Key="pGD1_L25M55TF726" Value="Alm" />
+        <Item Key="pGD1_L25M1TF248" Value="ASwFast:" />
+        <Item Key="pGD1_L25M1DF250_MRT" Value="ON" />
+        <Item Key="pGD1_L25M1DF250_MRF" Value="OFF" />
+        <Item Key="pGD1_L25M55TF725" Value="Act" />
+        <Item Key="pGD1_L25M47TF556" Value="ChipIOInfos" />
+        <Item Key="pGD1_L25M47TF557" Value="BType:" />
+        <Item Key="pGD1_L25M47TF559" Value="ID:" />
+        <Item Key="pGD1_L25M47TF561" Value="NO:" />
+        <Item Key="pGD1_L25M47TF562" Value="U:" />
+        <Item Key="pGD1_L25M47TF260" Value="Y:" />
+        <Item Key="pGD1_L25M47TF565" Value="Chip#:" />
+        <Item Key="pGD1_L25M47TF566" Value="1:" />
+        <Item Key="pGD1_L25M47TF567" Value="2:" />
+        <Item Key="pGD1_L25M47TF568" Value="3:" />
+        <Item Key="pGD1_L25M47TF569" Value="4:" />
+        <Item Key="pGD1_L25M47TF570" Value="5:" />
+        <Item Key="pGD1_L25M48TF577" Value="ChipIO errors" />
+        <Item Key="pGD1_L25M48TF38" Value="1:" />
+        <Item Key="pGD1_L25M48TF39" Value="2:" />
+        <Item Key="pGD1_L25M48TF40" Value="3:" />
+        <Item Key="pGD1_L25M48TF41" Value="4:" />
+        <Item Key="pGD1_L25M48TF581" Value="Cfg" />
+        <Item Key="pGD1_L25M48TF297" Value="Crc" />
+        <Item Key="pGD1_L25M48TF302" Value="Nan" />
+        <Item Key="pGD1_L25M48TF588" Value="Exc" />
+        <Item Key="pGD1_L25M49TF425" Value="Analog Uni setup 1-14" />
+        <Item Key="pGD1_L25M49TF426" Value="1:" />
+        <Item Key="pGD1_L25M49TF427" Value="2:" />
+        <Item Key="pGD1_L25M49TF428" Value="3:" />
+        <Item Key="pGD1_L25M49TF429" Value="4:" />
+        <Item Key="pGD1_L25M49TF430" Value="5:" />
+        <Item Key="pGD1_L25M49DF431_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF431_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF431_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF431_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF431_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF431_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF431_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF431_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF431_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF431_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF431_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF431_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF431_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF431_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF431_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF431_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF431_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF431_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF431_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF431_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF431_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF431_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF431_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF431_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF431_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF431_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF431_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF431_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF431_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF431_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF431_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF432_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF432_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF432_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF432_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF432_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF432_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF432_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF432_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF432_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF432_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF432_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF432_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF432_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF432_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF432_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF432_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF432_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF432_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF432_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF432_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF432_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF432_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF432_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF432_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF432_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF432_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF432_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF432_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF432_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF432_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF432_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF433_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF433_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF433_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF433_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF433_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF433_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF433_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF433_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF433_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF433_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF433_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF433_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF433_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF433_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF433_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF433_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF433_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF433_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF433_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF433_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF433_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF433_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF433_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF433_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF433_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF433_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF433_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF433_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF433_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF433_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF433_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF434_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF434_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF434_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF434_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF434_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF434_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF434_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF434_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF434_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF434_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF434_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF434_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF434_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF434_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF434_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF434_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF434_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF434_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF434_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF434_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF434_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF434_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF434_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF434_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF434_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF434_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF434_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF434_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF434_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF434_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF434_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF435_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF435_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF435_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF435_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF435_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF435_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF435_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF435_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF435_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF435_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF435_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF435_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF435_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF435_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF435_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF435_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF435_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF435_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF435_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF435_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF435_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF435_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF435_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF435_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF435_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF435_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF435_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF435_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF435_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF435_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF435_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF436_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF436_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF436_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF436_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF436_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF436_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF436_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF436_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF436_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF436_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF436_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF436_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF436_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF436_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF436_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF436_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF436_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF436_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF436_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF436_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF436_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF436_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF436_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF436_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF436_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF436_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF436_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF436_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF436_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF436_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF436_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF437_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF437_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF437_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF437_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF437_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF437_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF437_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF437_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF437_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF437_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF437_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF437_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF437_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF437_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF437_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF437_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF437_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF437_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF437_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF437_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF437_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF437_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF437_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF437_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF437_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF437_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF437_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF437_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF437_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF437_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF437_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF438_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF438_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF438_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF438_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF438_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF438_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF438_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF438_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF438_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF438_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF438_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF438_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF438_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF438_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF438_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF438_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF438_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF438_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF438_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF438_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF438_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF438_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF438_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF438_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF438_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF438_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF438_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF438_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF438_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF438_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF438_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49TF439" Value="8:" />
+        <Item Key="pGD1_L25M49TF440" Value="9:" />
+        <Item Key="pGD1_L25M49TF441" Value="10:" />
+        <Item Key="pGD1_L25M49TF442" Value="7:" />
+        <Item Key="pGD1_L25M49DF443_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF443_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF443_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF443_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF443_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF443_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF443_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF443_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF443_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF443_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF443_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF443_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF443_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF443_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF443_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF443_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF443_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF443_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF443_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF443_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF443_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF443_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF443_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF443_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF443_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF443_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF443_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF443_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF443_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF443_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M49DF443_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49TF444" Value="6:" />
+        <Item Key="pGD1_L25M49DF445_MR0" Value="NTC" />
+        <Item Key="pGD1_L25M49DF445_MR1" Value="PT_1000" />
+        <Item Key="pGD1_L25M49DF445_MR2" Value="0_1V" />
+        <Item Key="pGD1_L25M49DF445_MR3" Value="0_10V" />
+        <Item Key="pGD1_L25M49DF445_MR4" Value="4_20mA" />
+        <Item Key="pGD1_L25M49DF445_MR5" Value="ON_OFF" />
+        <Item Key="pGD1_L25M49DF445_MR6" Value="0_5V" />
+        <Item Key="pGD1_L25M49DF445_MR7" Value="NTC_0_150" />
+        <Item Key="pGD1_L25M49DF445_MR8" Value="C50T90" />
+        <Item Key="pGD1_L25M49DF445_MR9" Value="C10_170" />
+        <Item Key="pGD1_L25M49DF445_MR10" Value="Cust1" />
+        <Item Key="pGD1_L25M49DF445_MR11" Value="Sensata" />
+        <Item Key="pGD1_L25M49DF445_MR12" Value="Cust2" />
+        <Item Key="pGD1_L25M49DF445_MR13" Value="Cust3" />
+        <Item Key="pGD1_L25M49DF445_MR14" Value="Ohm05" />
+        <Item Key="pGD1_L25M49DF445_MR15" Value="Ohm10" />
+        <Item Key="pGD1_L25M49DF445_MR16" Value="80_Minus" />
+        <Item Key="pGD1_L25M49DF445_MR17" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR18" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR19" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR20" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR21" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR22" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR23" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR24" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR25" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR26" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR27" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR28" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR29" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR30" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR31" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR32" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR33" Value="--" />
+        <Item Key="pGD1_L25M49DF445_MR34" Value="Ohm" />
+        <Item Key="pGD1_L25M49DF445_MR35" Value="Pt500" />
+        <Item Key="pGD1_L25M49DF445_MR36" Value="Pt100" />
+        <Item Key="pGD1_L25M49DF445_MR37" Value="Diff" />
+        <Item Key="pGD1_L25M49DF445_MR38" Value="0_5VAss" />
+        <Item Key="pGD1_L25M49DF445_MR39" Value="DigOpto" />
+        <Item Key="pGD1_L25M49DF445_MR40" Value="Counter" />
+        <Item Key="pGD1_L25M49DF445_MR41" Value="Freq" />
+        <Item Key="pGD1_L25M49DF445_MR42" Value="0_20mA" />
+        <Item Key="pGD1_L25M49DF445_MR43" Value="05_45V" />
+        <Item Key="pGD1_L25M49DF445_MR44" Value="SFL_60" />
+        <Item Key="pGD1_L25M49DF445_MR255" Value="NO_CONN" />
+        <Item Key="pGD1_L25M49DF445_MR254" Value="OUT_0_10" />
+        <Item Key="pGD1_L25M10TF589" Value="Analog Uni setup 15-16" />
+        <Item Key="pGD1_L25M10TF590" Value="15:" />
+        <Item Key="pGD1_L25M10TF591" Value="16:" />
+        <Item Key="pGD1_L25M50TF592" Value="Slave status" />
+        <Item Key="pGD1_L25M50DF594_MRF" Value="Off" />
+        <Item Key="pGD1_L25M50DF594_MRT" Value="On" />
+        <Item Key="pGD1_L25M50TF181" Value="Err:" />
+        <Item Key="pGD1_L25M50DF688_MRF" Value="Off" />
+        <Item Key="pGD1_L25M50DF682_MRT" Value="On" />
+        <Item Key="pGD1_L25M50DF682_MRF" Value="Off" />
+        <Item Key="pGD1_L25M50TF683" Value="HSlv:" />
+        <Item Key="pGD1_L25M12TF606" Value="Power status" />
+        <Item Key="pGD1_L25M12DF607_MR0" Value="UNKNOWN_PS" />
+        <Item Key="pGD1_L25M12DF607_MR4" Value="DC POWER FAIL" />
+        <Item Key="pGD1_L25M12DF607_MR3" Value="AC POWER FAIL" />
+        <Item Key="pGD1_L25M12DF607_MR2" Value="DC POWER OK" />
+        <Item Key="pGD1_L25M12DF607_MR1" Value="AC POWER OK" />
+        <Item Key="pGD1_L25M12TF608" Value="Freq:" />
+        <Item Key="pGD1_L25M12TF610" Value="Power loss cnt:" />
+        <Item Key="pGD1_L25M12TF611" Value="Power rise cnt:" />
+        <Item Key="pGD1_L25M51TF614" Value="I2C/NAND Error monitor" />
+        <Item Key="pGD1_L25M51TF616" Value="Eep test EN:" />
+        <Item Key="pGD1_L25M51TF412" Value="NVRAM test EN:" />
+        <Item Key="pGD1_L25M51TF414" Value="NAND test EN:" />
+        <Item Key="pGD1_L25M51TF422" Value="Cnf:" />
+        <Item Key="pGD1_L25M51TF423" Value="Open:" />
+        <Item Key="pGD1_L25M51TF424" Value="Write:" />
+        <Item Key="pGD1_L25M52TF618" Value="UID:" />
+        <Item Key="pGD1_L25M52TF619" Value="SYS INFOS" />
+        <Item Key="pGD1_L25M52TF620" Value="DeviceType:" />
+        <Item Key="pGD1_L25M52TF623" Value="BoardType:" />
+        <Item Key="pGD1_L25M52TF624" Value="machineType:" />
+        <Item Key="pGD1_L25M52TF625" Value="hwCode:" />
+        <Item Key="pGD1_L25M52TF629" Value="BaseCod:" />
+        <Item Key="pGD1_L25M17TF631" Value="UID:" />
+        <Item Key="pGD1_L25M17TF632" Value="HDVer:" />
+        <Item Key="pGD1_L25M17TF634" Value="MCD:" />
+        <Item Key="pGD1_L25M17TF636" Value="OVMCD:" />
+        <Item Key="pGD1_L25M17TF640" Value="OID:" />
+        <Item Key="pGD1_L25M17TF641" Value="OVOID:" />
+        <Item Key="pGD1_L25M53TF651" Value="1:" />
+        <Item Key="pGD1_L25M53TF644" Value="Digital Input values" />
+        <Item Key="pGD1_L25M53TF645" Value="1:" />
+        <Item Key="pGD1_L25M53TF647" Value="2:" />
+        <Item Key="pGD1_L25M53TF649" Value="3:" />
+        <Item Key="pGD1_L25M53TF657" Value="3:" />
+        <Item Key="pGD1_L25M53TF660" Value="2:" />
+        <Item Key="pGD1_L25M53TF662" Value="1:" />
+        <Item Key="pGD1_L25M53TF663" Value="1:" />
+        <Item Key="pGD1_L25M50TF684" Value="Err:" />
+        <Item Key="pGD1_L25M50TF686" Value="HSlv:" />
+        <Item Key="pGD1_L25M50TF687" Value="HSlv:" />
+        <Item Key="pGD1_L25M50DF688_MRT" Value="On" />
+        <Item Key="pGD1_L25M50TF689" Value="Err:" />
+        <Item Key="pGD1_L25M50TF712" Value="Err:" />
+        <Item Key="pGD1_L25M50TF711" Value="Err:" />
+        <Item Key="pGD1_L25M50TF707" Value="Err:" />
+        <Item Key="pGD1_L25M54DF704_MRF" Value="OnL" />
+        <Item Key="pGD1_L25M54TF700" Value="Slave status" />
+        <Item Key="pGD1_L25M54TF701" Value="HSlv:" />
+        <Item Key="pGD1_L25M54TF702" Value="HSlv:" />
+        <Item Key="pGD1_L25M54TF703" Value="HSlv:" />
+        <Item Key="pGD1_L25M54DF705_MRF" Value="OnL" />
+        <Item Key="pGD1_L25M54DF704_MRT" Value="OffL" />
+        <Item Key="pGD1_L25M54DF706_MRF" Value="OnL" />
+        <Item Key="pGD1_L25M54DF705_MRT" Value="OffL" />
+        <Item Key="pGD1_L25M54DF706_MRT" Value="OffL" />
+        <Item Key="pGD1_L25M53TF713" Value="1:" />
+        <Item Key="pGD1_L25M53TF715" Value="1:" />
+        <Item Key="pGD1_L25M55TF729" Value="ASwFast:" />
+        <Item Key="pGD1_L25M55TF728" Value="Pos" />
+        <Item Key="pGD1_L25M55TF719" Value="V2:" />
+        <Item Key="pGD1_L25M55TF727" Value="Valve status &amp; control" />
+        <Item Key="pGD1_L25M55TF717" Value="V1:" />
+        <Item Key="pGD1_L25M55DF732_MRT" Value="ON" />
+        <Item Key="pGD1_L25M55DF732_MRF" Value="OFF" />
+        <Item Key="pGD1_L25M9TF735" Value="11-14" />
+        <Item Key="pGD1_L25M9TF736" Value="11:" />
+        <Item Key="pGD1_L25M9TF738" Value="11:" />
+        <Item Key="pGD1_L25M9TF740" Value="11:" />
+        <Item Key="pGD1_L25M9TF742" Value="11:" />
+      </Items>
+    </Section>
+    <Section Name="SevenSegments" Priority="1" EmbedTranslation="false" Font="CAREL_PST">
+      <Items />
+    </Section>
+  </Sections>
+</XmlLanguage>

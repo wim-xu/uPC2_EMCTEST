@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="24"
+  Name="AlarmsLogMsk"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="270" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <GraphicWidget
+      ID="270"
+      Name="HistoryAlarmsWidget"
+      Row="0"
+      Column="0"
+      Selectable="FALSE"
+      ClassName="HistoryAlarmsWidget">
+      <Members>
+        <Member
+          Name="AlarmDescr"
+          Value="AlarmDescr" />
+        <Member
+          Name="StoreVarDesc1"
+          Value="StoreVarDesc1" />
+        <Member
+          Name="StoreVarDesc2"
+          Value="StoreVarDesc2" />
+        <Member
+          Name="EnStoreVarDesc1"
+          Value="" />
+        <Member
+          Name="EnStoreVarDesc2"
+          Value="" />
+      </Members>
+    </GraphicWidget>
+  </MaskElements>
+</BaseMaskData>

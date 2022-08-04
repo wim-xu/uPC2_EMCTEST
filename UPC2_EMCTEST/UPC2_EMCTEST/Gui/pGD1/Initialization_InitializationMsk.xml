@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="28"
+  Name="AlrmInitMsk"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="342" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="138"
+      Name="ShapeField138"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="140"
+      Name="TextField140"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="141"
+      Name="TextField141"
+      Row="1"
+      Column="0" />
+    <TextField
+      ID="145"
+      Name="TextField145"
+      Row="7"
+      Column="0" />
+    <TextAreaField
+      ID="146"
+      Name="TextAreaField146"
+      Row="3"
+      Column="0"
+      Width="22"
+      Height="2" />
+    <TextAreaField
+      ID="147"
+      Name="TextAreaField147"
+      Row="5"
+      Column="0"
+      Width="22"
+      Height="2" />
+    <DataField
+      ID="252"
+      Name="DataField252"
+      Row="3"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="LogAlrmRes">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L22M28DF252_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L22M28DF252_MRF" />
+      </BoolStates>
+    </DataField>
+    <DataField
+      ID="319"
+      Name="DataField319"
+      Row="6"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="ResTotCnt">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L22M28DF319_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L22M28DF319_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextWidget
+      ID="342"
+      Name="TextWidget342"
+      Row="0"
+      Column="0"
+      Selectable="TRUE"
+      ClassName="AccessRightWidget">
+      <Members>
+        <Member
+          Name="LoginType"
+          Value="1" />
+      </Members>
+    </TextWidget>
+  </MaskElements>
+</BaseMaskData>

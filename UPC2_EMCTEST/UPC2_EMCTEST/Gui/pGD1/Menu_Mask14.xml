@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="14"
+  Name="MainMenu"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="172" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <GraphicWidget
+      ID="172"
+      Name="MenuWidget"
+      Row="0"
+      Column="0"
+      Selectable="FALSE"
+      ClassName="MenuWidget">
+      <Members>
+        <Member
+          Name="PwdType"
+          Value="" />
+        <Member
+          Name="ShowMsgPwd"
+          Value="TRUE" />
+      </Members>
+    </GraphicWidget>
+  </MaskElements>
+</BaseMaskData>

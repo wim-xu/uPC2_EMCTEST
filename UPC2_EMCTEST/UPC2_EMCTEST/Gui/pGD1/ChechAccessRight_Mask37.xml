@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="37"
+  Name="InsertService"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Actions>
+    <Action
+      KeyName="KEY_DOWN"
+      FileName="DoNothing.st"
+      FunctionName="DoNothing"
+      Call="DoNothing(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_UP"
+      FileName="DoNothing.st"
+      FunctionName="DoNothing"
+      Call="DoNothing(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_ENTER"
+      FileName="DoNothing.st"
+      FunctionName="DoNothing"
+      Call="DoNothing(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_ALARM"
+      FileName="DoNothing.st"
+      FunctionName="DoNothing"
+      Call="DoNothing(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_ESC"
+      FileName="pGD1Gui.st"
+      FunctionName="PopLastMask"
+      Call="PopLastMask();"
+      Type="Single" />
+  </Actions>
+  <MaskElements>
+    <ShapeField
+      ID="320"
+      Name="ShapeField320"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="321"
+      Name="TextField321"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="322"
+      Name="TextField322"
+      Row="7"
+      Column="0" />
+    <ShapeField
+      ID="323"
+      Name="ShapeField323"
+      Row="7"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="324"
+      Name="TextField324"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="325"
+      Name="TextField325"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="326"
+      Name="TextField326"
+      Row="4"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

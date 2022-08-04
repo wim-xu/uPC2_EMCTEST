@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="44"
+  Name="AnalogUniOut_1_14"
+  Version="3.0"
+  EnableOn="FALSE" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="454"
+      Name="TextField454"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="456"
+      Name="TextField456"
+      Row="7"
+      Column="10" />
+    <TextField
+      ID="457"
+      Name="TextField457"
+      Row="6"
+      Column="10" />
+    <TextField
+      ID="459"
+      Name="TextField459"
+      Row="5"
+      Column="10" />
+    <TextField
+      ID="461"
+      Name="TextField461"
+      Row="4"
+      Column="10" />
+    <TextField
+      ID="469"
+      Name="TextField469"
+      Row="3"
+      Column="10" />
+    <TextField
+      ID="472"
+      Name="TextField472"
+      Row="2"
+      Column="11" />
+    <TextField
+      ID="473"
+      Name="TextField473"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="474"
+      Name="TextField474"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="475"
+      Name="TextField475"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="476"
+      Name="TextField476"
+      Row="5"
+      Column="0" />
+    <TextField
+      ID="477"
+      Name="TextField477"
+      Row="7"
+      Column="0" />
+    <TextField
+      ID="478"
+      Name="TextField478"
+      Row="6"
+      Column="0" />
+    <TextField
+      ID="479"
+      Name="TextField479"
+      Row="1"
+      Column="0" />
+    <TextField
+      ID="482"
+      Name="TextField482"
+      Row="1"
+      Column="11" />
+    <DataField
+      ID="483"
+      Name="DataField483"
+      Row="1"
+      Column="2"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[1]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="484"
+      Name="DataField484"
+      Row="2"
+      Column="2"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[2]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="485"
+      Name="DataField485"
+      Row="3"
+      Column="2"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[3]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="486"
+      Name="DataField486"
+      Row="4"
+      Column="2"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[4]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="487"
+      Name="DataField487"
+      Row="5"
+      Column="2"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[5]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="488"
+      Name="DataField488"
+      Row="6"
+      Column="2"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[6]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="489"
+      Name="DataField489"
+      Row="7"
+      Column="2"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[7]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="490"
+      Name="DataField490"
+      Row="1"
+      Column="13"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[8]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="491"
+      Name="DataField491"
+      Row="2"
+      Column="13"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[9]"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="492"
+      Name="DataField492"
+      Row="3"
+      Column="13"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="UniAOutValue[10]"
+      Min="0"
+      Max="1000" />
+  </MaskElements>
+</BaseMaskData>

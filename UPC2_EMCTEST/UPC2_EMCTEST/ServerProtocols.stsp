@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SlaveConfigurations
+  version="1.4">
+  <GlobalSettings />
+  <Configurations>
+    <Configuration
+      Name="Display"
+      ConfigurationTask="__CONFIGURATION__"
+      ResourceTask="__RESOURCE__"
+      Guid="96d04e9f362449ffb5b6ff3d61c9f51e">
+      <SlaveSettings
+        COMPort="Serial0"
+        ProtocolKind="Slave"
+        Baudrate="57600"
+        StopBits="One"
+        IDEMode="ModbusShared"
+        Zone="0" />
+      <Variables />
+      <IOTConfiguration />
+    </Configuration>
+    <Configuration
+      Name="pCOWeb_BMS1"
+      ConfigurationTask="__CONFIGURATION__"
+      ResourceTask="__RESOURCE__"
+      Guid="5a91cd4575084d20a77170e53bb6f277">
+      <SlaveSettings
+        COMPort="BMS1"
+        ProtocolKind="Slave"
+        IDEMode="ModbusShared"
+        Zone="0" />
+      <Variables>
+        <ModbusVariable
+          DataType="UINT"
+          Name="LDay"
+          Index="4"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LHour"
+          Index="3"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LMin"
+          Index="2"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LMonth"
+          Index="5"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LSec"
+          Index="1"
+          Kind="HoldingRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LYear"
+          Index="6"
+          Kind="HoldingRegister"
+          Size="1" />
+      </Variables>
+      <IOTConfiguration />
+    </Configuration>
+    <Configuration
+      Name="Supervisor_ETH1"
+      ConfigurationTask="__CONFIGURATION__"
+      ResourceTask="__RESOURCE__"
+      Guid="98fe8f0e5ae34569ab353a3949b43094">
+      <SlaveSettings
+        ProtocolKind="Slave"
+        CommunicationType="TCP_IP"
+        IpProtocol="UDP"
+        IDEMode="ModbusShared"
+        Zone="0" />
+      <Variables>
+        <ModbusVariable
+          DataType="UINT"
+          Name="LSec"
+          Index="0"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LMin"
+          Index="1"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LHour"
+          Index="2"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LDay"
+          Index="3"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LMonth"
+          Index="4"
+          Kind="InputRegister"
+          Size="1" />
+        <ModbusVariable
+          DataType="UINT"
+          Name="LYear"
+          Index="5"
+          Kind="InputRegister"
+          Size="1" />
+      </Variables>
+      <IOTConfiguration />
+    </Configuration>
+  </Configurations>
+</SlaveConfigurations>

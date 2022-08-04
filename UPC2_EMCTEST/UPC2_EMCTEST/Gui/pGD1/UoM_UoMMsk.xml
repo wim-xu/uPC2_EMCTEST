@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="25"
+  Name="UoMMsk"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="337" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="135"
+      Name="ShapeField135"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="165"
+      Name="TextField165"
+      Row="0"
+      Column="1" />
+    <DataField
+      ID="198"
+      Name="DataField196"
+      Row="2"
+      Column="0"
+      Domain="USINT"
+      Presentation="IAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="UoMZoneHMI"
+      Min="0"
+      Max="2">
+      <IntStates>
+        <State
+          ID="1"
+          Type="Text"
+          TranslationKey="pGD1_L19M25DF198_MR1" />
+        <State
+          ID="2"
+          Type="Text"
+          TranslationKey="pGD1_L19M25DF198_MR2" />
+        <State
+          ID="0"
+          Type="Text"
+          TranslationKey="pGD1_L19M25DF198_MR0" />
+      </IntStates>
+    </DataField>
+    <TextWidget
+      ID="337"
+      Name="TextWidget337"
+      Row="0"
+      Column="0"
+      Selectable="TRUE"
+      ClassName="AccessRightWidget">
+      <Members>
+        <Member
+          Name="LoginType"
+          Value="1" />
+      </Members>
+    </TextWidget>
+  </MaskElements>
+</BaseMaskData>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="40"
+  Name="SysInfo4"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="392"
+      Name="ShapeField392"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="393"
+      Name="TextField393"
+      Row="0"
+      Column="1" />
+    <DataField
+      ID="394"
+      Name="DataField394"
+      Row="3"
+      Column="20"
+      Domain="BYTE"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="FALSE"
+      VariableName="HardwareInfo.EepromSize"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="395"
+      Name="TextField395"
+      Row="3"
+      Column="0"
+      EnableOn="FALSE" />
+    <DataField
+      ID="396"
+      Name="DataField396"
+      Row="4"
+      Column="20"
+      Domain="BYTE"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="FALSE"
+      VariableName="HardwareInfo.FlashSize"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="397"
+      Name="TextField397"
+      Row="4"
+      Column="0"
+      EnableOn="FALSE" />
+    <TextField
+      ID="398"
+      Name="TextField398"
+      Row="5"
+      Column="0"
+      EnableOn="FALSE" />
+    <DataField
+      ID="399"
+      Name="DataField399"
+      Row="5"
+      Column="20"
+      Domain="BYTE"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="FALSE"
+      VariableName="HardwareInfo.RamSize"
+      Min="0"
+      Max="255" />
+    <DataField
+      ID="400"
+      Name="DataField400"
+      Row="6"
+      Column="20"
+      Domain="BYTE"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="FALSE"
+      VariableName="HardwareInfo.RtcBackupType"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="401"
+      Name="TextField401"
+      Row="6"
+      Column="0"
+      EnableOn="FALSE" />
+    <DataField
+      ID="402"
+      Name="DataField402"
+      Row="2"
+      Column="20"
+      Domain="BYTE"
+      Presentation="variable"
+      Selectable="FALSE"
+      VariableName="HardwareInfo.CoreType"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="403"
+      Name="TextField403"
+      Row="2"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

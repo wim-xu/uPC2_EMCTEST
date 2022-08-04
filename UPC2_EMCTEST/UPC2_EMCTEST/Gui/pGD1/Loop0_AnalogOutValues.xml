@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="43"
+  Name="AnalogOutValues"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="118"
+      Name="TextField118"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="528"
+      Name="TextField120"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="529"
+      Name="TextField122"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="530"
+      Name="TextField124"
+      Row="2"
+      Column="0" />
+    <DataField
+      ID="531"
+      Name="DataField125"
+      Row="2"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-RRRR.R"
+      VariableName="AOutValue[1]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="532"
+      Name="DataField126"
+      Row="3"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-RRRR.R"
+      VariableName="AOutValue[2]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="533"
+      Name="DataField127"
+      Row="4"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-RRRR.R"
+      VariableName="AOutValue[3]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="675"
+      Name="DataField675"
+      Row="5"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="TRUE"
+      EnableOn="CurrentIOInfo.Y&gt;3"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-RRRR.R"
+      VariableName="AOutValue[4]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="676"
+      Name="TextField676"
+      Row="5"
+      Column="0"
+      EnableOn="CurrentIOInfo.Y&gt;3" />
+    <DataField
+      ID="677"
+      Name="DataField677"
+      Row="6"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="TRUE"
+      EnableOn="CurrentIOInfo.Y&gt;4"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-RRRR.R"
+      VariableName="AOutValue[5]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="678"
+      Name="TextField678"
+      Row="6"
+      Column="0"
+      EnableOn="CurrentIOInfo.Y&gt;4" />
+  </MaskElements>
+</BaseMaskData>

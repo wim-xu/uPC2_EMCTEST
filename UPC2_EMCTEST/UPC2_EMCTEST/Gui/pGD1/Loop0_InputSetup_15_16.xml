@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="10"
+  Name="InputSetup_15_16"
+  Version="3.0"
+  EnableOn="FALSE" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="589"
+      Name="TextField217"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="590"
+      Name="TextField590"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="591"
+      Name="TextField231"
+      Row="3"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

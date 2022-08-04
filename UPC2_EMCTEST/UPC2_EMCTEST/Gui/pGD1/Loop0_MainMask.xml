@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="41"
+  Name="MainMask"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="506"
+      Name="TextField0"
+      Row="0"
+      Column="0" />
+    <TimeField
+      ID="58"
+      Name="TimeVariableField58"
+      Row="3"
+      Column="2"
+      Domain="DT"
+      Selectable="false"
+      VariableName="Ctime" />
+    <DataField
+      ID="59"
+      Name="DataField59"
+      Row="6"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="WorkingTimeMin"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="60"
+      Name="DataField60"
+      Row="6"
+      Column="12"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="WorkingTimeSec"
+      Min="0"
+      Max="60" />
+    <TextField
+      ID="507"
+      Name="TextField61"
+      Row="6"
+      Column="10" />
+    <TextField
+      ID="87"
+      Name="TextField87"
+      Row="2"
+      Column="8" />
+    <TextField
+      ID="508"
+      Name="TextField88"
+      Row="5"
+      Column="7" />
+    <TextField
+      ID="129"
+      Name="TextField129"
+      Row="6"
+      Column="14" />
+    <ShapeField
+      ID="509"
+      Name="ShapeField509"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <StringField
+      ID="510"
+      Name="StringField316"
+      Row="0"
+      Column="12"
+      Domain="STRING"
+      Presentation="SimpleString"
+      Selectable="FALSE"
+      VariableName="VersionStr" />
+  </MaskElements>
+</BaseMaskData>

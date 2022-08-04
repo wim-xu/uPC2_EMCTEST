@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="46"
+  Name="RelayStatus"
+  Version="3.0"
+  EnableOn="FALSE" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="534"
+      Name="TextField95"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="96"
+      Name="TextField96"
+      Row="2"
+      Column="3" />
+    <TextField
+      ID="97"
+      Name="TextField97"
+      Row="2"
+      Column="9" />
+    <TextField
+      ID="98"
+      Name="TextField98"
+      Row="2"
+      Column="15" />
+    <TextField
+      ID="99"
+      Name="TextField99"
+      Row="3"
+      Column="3" />
+    <TextField
+      ID="535"
+      Name="TextField535"
+      Row="3"
+      Column="9" />
+    <TextField
+      ID="536"
+      Name="TextField101"
+      Row="3"
+      Column="15" />
+    <DataField
+      ID="104"
+      Name="DataField104"
+      Row="2"
+      Column="5"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="DOutStatus[1]" />
+    <DataField
+      ID="537"
+      Name="DataField105"
+      Row="2"
+      Column="11"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="DOutStatus[2]" />
+    <DataField
+      ID="538"
+      Name="DataField106"
+      Row="2"
+      Column="17"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="DOutStatus[3]" />
+    <DataField
+      ID="539"
+      Name="DataField107"
+      Row="3"
+      Column="5"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="DOutStatus[4]" />
+    <DataField
+      ID="108"
+      Name="DataField108"
+      Row="3"
+      Column="11"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="DOutStatus[5]" />
+    <DataField
+      ID="109"
+      Name="DataField109"
+      Row="3"
+      Column="17"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="DOutStatus[6]" />
+    <DataField
+      ID="318"
+      Name="DataField318"
+      Row="5"
+      Column="13"
+      Domain="INT"
+      Presentation="IAR"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="I"
+      VariableName="RGB_LedStatus"
+      Min="0"
+      Max="7">
+      <IntStates>
+        <State
+          ID="1"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR1" />
+        <State
+          ID="4"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR4" />
+        <State
+          ID="5"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR5" />
+        <State
+          ID="6"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR6" />
+        <State
+          ID="7"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR7" />
+        <State
+          ID="2"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR2" />
+        <State
+          ID="3"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR3" />
+        <State
+          ID="0"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF318_MR0" />
+      </IntStates>
+    </DataField>
+    <TextField
+      ID="540"
+      Name="TextField319"
+      Row="5"
+      Column="3" />
+    <TextField
+      ID="541"
+      Name="TextField320"
+      Row="6"
+      Column="0" />
+    <DataField
+      ID="542"
+      Name="DataField321"
+      Row="6"
+      Column="13"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      UsesTempVarContent="false"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="GatewayOnOff">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF542_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF542_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="502"
+      Name="TextField502"
+      Row="7"
+      Column="0" />
+    <DataField
+      ID="503"
+      Name="DataField503"
+      Row="7"
+      Column="13"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="EnableTestTimer">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF503_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M46DF503_MRF" />
+      </BoolStates>
+    </DataField>
+  </MaskElements>
+</BaseMaskData>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="53"
+  Name="DigitalInValus_1_10"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="644"
+      Name="TextField644"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="645"
+      Name="TextField645"
+      Row="1"
+      Column="0"
+      EnableOn="CurrentIOInfo.ID&gt;0" />
+    <DataField
+      ID="646"
+      Name="DataField646"
+      Row="1"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;0"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[1]" />
+    <TextField
+      ID="647"
+      Name="TextField647"
+      Row="2"
+      Column="0"
+      EnableOn="CurrentIOInfo.ID&gt;1" />
+    <DataField
+      ID="648"
+      Name="DataField648"
+      Row="2"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;1"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[2]" />
+    <TextField
+      ID="649"
+      Name="TextField649"
+      Row="3"
+      Column="0"
+      EnableOn="CurrentIOInfo.ID&gt;2" />
+    <DataField
+      ID="650"
+      Name="DataField650"
+      Row="3"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;2"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[3]" />
+    <TextField
+      ID="651"
+      Name="TextField651"
+      Row="4"
+      Column="0"
+      EnableOn="CurrentIOInfo.ID&gt;3" />
+    <TextField
+      ID="657"
+      Name="TextField657"
+      Row="3"
+      Column="12"
+      EnableOn="CurrentIOInfo.ID&gt;8" />
+    <TextField
+      ID="660"
+      Name="TextField660"
+      Row="2"
+      Column="12"
+      EnableOn="CurrentIOInfo.ID&gt;7" />
+    <TextField
+      ID="662"
+      Name="TextField662"
+      Row="1"
+      Column="12"
+      EnableOn="CurrentIOInfo.ID&gt;6" />
+    <TextField
+      ID="663"
+      Name="TextField663"
+      Row="4"
+      Column="11"
+      EnableOn="CurrentIOInfo.ID&gt;9" />
+    <DataField
+      ID="664"
+      Name="DataField664"
+      Row="4"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;3"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[4]" />
+    <DataField
+      ID="667"
+      Name="DataField667"
+      Row="1"
+      Column="14"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;6"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[7]" />
+    <DataField
+      ID="668"
+      Name="DataField668"
+      Row="2"
+      Column="14"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;7"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[8]" />
+    <DataField
+      ID="669"
+      Name="DataField669"
+      Row="3"
+      Column="14"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;8"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[9]" />
+    <DataField
+      ID="670"
+      Name="DataField670"
+      Row="4"
+      Column="14"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.ID&gt;9"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[10]" />
+    <TextField
+      ID="713"
+      Name="TextField713"
+      Row="5"
+      Column="0"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" />
+    <DataField
+      ID="714"
+      Name="DataField714"
+      Row="5"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[5]" />
+    <TextField
+      ID="715"
+      Name="TextField715"
+      Row="6"
+      Column="0"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" />
+    <DataField
+      ID="716"
+      Name="DataField716"
+      Row="6"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DInputValue[6]" />
+  </MaskElements>
+</BaseMaskData>

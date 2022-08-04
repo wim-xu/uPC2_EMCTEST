@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParametersConfiguration>
+  <Parameters>
+    <Parameter
+      Name="Alarms.Table.Al_RetainSavedTooOften.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="A01 Unit - Retain memory saved too often"
+      Name="Alarms.Table.Al_RetainSavedTooOften.Info.Active"
+      ReadOnly="true"
+      Acronym="A01"
+      Attributes="System" />
+    <Parameter
+      Description="A02 Unit - NFC memory saved too often"
+      Name="Alarms.Table.Al_NFCSavedTooOften.Info.Active"
+      ReadOnly="true"
+      Acronym="A02"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_NFCSavedTooOften.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      InitValue="9999"
+      Name="PwdManuf"
+      Persistence="Persistent"
+      Attributes="Password Configurable Cloneable" />
+    <Parameter
+      InitValue="1234"
+      Name="PwdService"
+      Persistence="Persistent"
+      Attributes="Password Configurable Cloneable" />
+    <Parameter
+      InitValue="1604"
+      Name="PwdSys"
+      Persistence="Persistent"
+      Attributes="System Password Configurable Cloneable" />
+    <Parameter
+      InitValue="0"
+      Name="PwdUser"
+      Persistence="Persistent"
+      Attributes="Password Configurable Cloneable" />
+    <Parameter
+      Description="(Reserve to APPs) Every time it's value change the PLC change it's RTC"
+      Name="APPsCfgRTC.SetRTC"
+      Attributes="DateTrigger System Cloneable" />
+    <Parameter
+      Description="(Reserve to APPs) New &quot;Date and Time&quot; used to update the RTC"
+      Name="APPsCfgRTC.DateTime"
+      Attributes="DateSet System Cloneable" />
+    <Parameter
+      Description="(Reserve to APPs) New &quot;Time Zone&quot; used to update the RTC"
+      Name="APPsCfgRTC.TimeZone"
+      Attributes="DateTimeZone System Cloneable" />
+    <Parameter
+      InitValue="1"
+      Name="BMS2_Addr"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      InitValue="7"
+      Name="BMS2_Baud"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      InitValue="1"
+      Name="BMS2_Conf"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      InitValue="4"
+      Name="FB2_Baud"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      InitValue="TRUE"
+      Name="FB2_ChangeSet"
+      Attributes="None" />
+    <Parameter
+      InitValue="1"
+      Name="FB2_Conf"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      InitValue="TRUE"
+      Name="BMS2_ChangeSet"
+      Attributes="None" />
+    <Parameter
+      Description="Alarms Log clear command (0=No, 1=Yes)"
+      Name="LogAlrmRes"
+      Attributes="LogAlarmReset" />
+    <Parameter
+      InitValue="0"
+      Name="UnitStatus"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      Name="UnitOnResHrs"
+      Attributes="None" />
+    <Parameter
+      Name="UnitOnHrs"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      Name="UnitOn"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      InitValue="'Carel Industries S.p.A'"
+      Name="PROJ_AUTHOR"
+      Persistence="Constant"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      InitValue="'PrjTemplate_pCO'"
+      Name="PROJ_NAME"
+      Persistence="Constant"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      InitValue="'Carel Industries S.p.A'"
+      Name="PROJ_VENDOR"
+      Persistence="Constant"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      InitValue="0"
+      Name="PROJ_VER_MINOR"
+      Persistence="Constant"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      InitValue="0"
+      Name="PROJ_VER_MAJOR"
+      Persistence="Constant"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      InitValue="10"
+      Name="PROJ_VER_BUILD"
+      Persistence="Constant"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      InitValue="0"
+      Name="DateFrmt"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      InitValue="FALSE"
+      Name="En_BmsOffOn"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      Name="UnitOnHrsTot"
+      Persistence="Persistent"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      Description="Reset active alarms by BMS net (0=NO, 1=Reset)"
+      Name="ResAlrmByBMS"
+      Attributes="System AlarmMasterReset" />
+    <Parameter
+      InitValue="FALSE"
+      Name="BmsOffOn"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      Description="Al_BMS1ERR"
+      Name="Alarms.Table.Al_BMS1ERR.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_BMS1ERR.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_cPCOe1ERR"
+      Name="Alarms.Table.Al_cPCOe1ERR.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_cPCOe1ERR.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_cPCOe2ERR"
+      Name="Alarms.Table.Al_cPCOe2ERR.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_cPCOe2ERR.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_cPCOe3ERR"
+      Name="Alarms.Table.Al_cPCOe3ERR.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_cPCOe3ERR.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI10Alarm"
+      Name="Alarms.Table.Al_DI10Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI10Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI1Alarm"
+      Name="Alarms.Table.Al_DI1Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI1Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI2Alarm"
+      Name="Alarms.Table.Al_DI2Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI2Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI3Alarm"
+      Name="Alarms.Table.Al_DI3Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI3Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI4Alarm"
+      Name="Alarms.Table.Al_DI4Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI4Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI5Alarm"
+      Name="Alarms.Table.Al_DI5Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI5Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI6Alarm"
+      Name="Alarms.Table.Al_DI6Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI6Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI7Alarm"
+      Name="Alarms.Table.Al_DI7Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI7Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI8Alarm"
+      Name="Alarms.Table.Al_DI8Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI8Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DI9Alarm"
+      Name="Alarms.Table.Al_DI9Alrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DI9Alrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_DisplayERR"
+      Name="Alarms.Table.Al_DisplayERR.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_DisplayERR.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_ETH1ERR"
+      Name="Alarms.Table.Al_ETH1ERR.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_ETH1ERR.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U1_PrbAlarm"
+      Name="Alarms.Table.Al_U1_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U1_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U1_ValAlarm"
+      Name="Alarms.Table.Al_U1_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U1_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U10_PrbAlarm"
+      Name="Alarms.Table.Al_U10_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U10_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U10_ValAlarm"
+      Name="Alarms.Table.Al_U10_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U10_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U11_PrbAlarm"
+      Name="Alarms.Table.Al_U11_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U11_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U11_ValAlarm"
+      Name="Alarms.Table.Al_U11_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U11_ValAlrm.Info.Category"
+      ReadOnly="true"
+      Attributes="None" />
+    <Parameter
+      Description="Al_U12_PrbAlarm"
+      Name="Alarms.Table.Al_U12_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U12_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U12_ValAlarm"
+      Name="Alarms.Table.Al_U12_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U12_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U2_PrbAlarm"
+      Name="Alarms.Table.Al_U2_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U2_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U2_ValAlarm"
+      Name="Alarms.Table.Al_U2_valAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U2_valAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U3_PrbAlarm"
+      Name="Alarms.Table.Al_U3_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U3_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U3_ValAlarm"
+      Name="Alarms.Table.Al_U3_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U3_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U4_PrbAlarm"
+      Name="Alarms.Table.Al_U4_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U4_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U4_ValAlarm"
+      Name="Alarms.Table.Al_U4_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U4_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U5_PrbAlarm"
+      Name="Alarms.Table.Al_U5_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U5_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U5_ValAlarm"
+      Name="Alarms.Table.Al_U5_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U5_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U6_PrbAlarm"
+      Name="Alarms.Table.Al_U6_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U6_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U6_ValAlarm"
+      Name="Alarms.Table.Al_U6_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U6_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U7_PrbAlarm"
+      Name="Alarms.Table.Al_U7_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U7_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U7_ValAlarm"
+      Name="Alarms.Table.Al_U7_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U7_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U8_PrbAlarm"
+      Name="Alarms.Table.Al_U8_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U8_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U8_ValAlarm"
+      Name="Alarms.Table.Al_U8_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U8_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U9_PrbAlarm"
+      Name="Alarms.Table.Al_U9_PrbAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U9_PrbAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Description="Al_U9_ValAlarm"
+      Name="Alarms.Table.Al_U9_ValAlrm.Info.Active"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="Alarms.Table.Al_U9_ValAlrm.Info.Code"
+      ReadOnly="true"
+      Attributes="System" />
+    <Parameter
+      Name="LocTime.Day"
+      Attributes="None" />
+    <Parameter
+      Name="LocTime.Hour"
+      Attributes="None" />
+    <Parameter
+      Name="LocTime.Millisecond"
+      Attributes="None" />
+    <Parameter
+      Name="LocTime.Minute"
+      Attributes="None" />
+    <Parameter
+      Name="LocTime.Month"
+      Attributes="None" />
+    <Parameter
+      Name="LocTime.Second"
+      Attributes="None" />
+    <Parameter
+      Name="LocTime.Year"
+      Attributes="None" />
+    <Parameter
+      Name="Log_Alarm[1].AlarmValuesType"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[1].Code"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[1].ID"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[1].Status"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[1].TimeStamp"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[2].AlarmValuesType"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[2].Code"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[2].ID"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[2].Status"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[2].TimeStamp"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[3].AlarmValuesType"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[3].Code"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[3].ID"
+      Persistence="Persistent"
+      Attributes="Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[3].Status"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+    <Parameter
+      Name="Log_Alarm[3].TimeStamp"
+      Persistence="Persistent"
+      Attributes="System Configurable Cloneable" />
+  </Parameters>
+</ParametersConfiguration>

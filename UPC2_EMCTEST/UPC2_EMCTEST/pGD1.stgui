@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GuiData
+  ID="0"
+  Name="pGD1"
+  Version="2.2"
+  DefaultZone="NO"
+  TranslationsMode="EmbedLanguagesAsResources"
+  DefaultDateFormat="DDMMYYYY"
+  TerminalName="pGD1">
+  <Leds>
+    <Led
+      Name="LED_ALM"
+      BlinkingCondition="DisplayBlinkLED_Alarm"
+      OnCondition="DisplayLED_Alarm" />
+    <Led
+      Name="LED_PRG"
+      OnCondition="DisplayLED_PRG" />
+    <Led
+      Name="LED_BACKGROUND"
+      OnCondition="DisplayLED_BACKGROUND" />
+  </Leds>
+  <Actions>
+    <Action
+      KeyName="KEY_ALARM"
+      FileName="GoToLoopAlarms.st"
+      FunctionName="GoToLoopAlarms"
+      Call="GoToLoopAlarms(keyPressed, keyCounter);"
+      Type="Single" />
+  </Actions>
+  <Loops>
+    <Loop
+      ID="0"
+      Name="Startup">
+      <Leds>
+        <Led
+          Name="LED_ALM"
+          BlinkingCondition="FALSE"
+          OnCondition="FALSE" />
+        <Led
+          Name="LED_PRG"
+          OnCondition="FALSE" />
+        <Led
+          Name="LED_BACKGROUND"
+          OnCondition="FALSE" />
+      </Leds>
+      <Actions>
+        <Action
+          KeyName="KEY_DOWN"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+        <Action
+          KeyName="KEY_UP"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+        <Action
+          KeyName="KEY_ENTER"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+        <Action
+          KeyName="KEY_ALARM"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>Loop0_Mask0.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="1"
+      Name="Language">
+      <Leds>
+        <Led
+          Name="LED_PRG"
+          OnCondition="FALSE" />
+        <Led
+          Name="LED_BACKGROUND"
+          OnCondition="FALSE" />
+      </Leds>
+      <Masks>
+        <FileName>Language_LanguageSelection.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="2"
+      Name="Main">
+      <Masks>
+        <FileName>MAIN_Mask2.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="3"
+      Name="OnOff">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="GoToMainLoop.st"
+          FunctionName="GoToMainLoop"
+          Call="GoToMainLoop(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>ONOFF_Mask3.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="4"
+      Name="Set">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="GoToMainLoop.st"
+          FunctionName="GoToMainLoop"
+          Call="GoToMainLoop(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>SET_Mask4.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="5"
+      Name="Info">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="GoToMainLoop.st"
+          FunctionName="GoToMainLoop"
+          Call="GoToMainLoop(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>INFO_Mask5.xml</FileName>
+        <FileName>INFO_Mask6.xml</FileName>
+        <FileName>INFO_Mask7.xml</FileName>
+        <FileName>Info_Mask40.xml</FileName>
+        <FileName>Info_Mask39.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="8"
+      Name="Login">
+      <Masks>
+        <FileName>LOGIN_MAIN_MENU_Mask11.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="9"
+      Name="Menu">
+      <Masks>
+        <FileName>Menu_Mask14.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="17"
+      Name="InputOutput">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReutrnToMenu.st"
+          FunctionName="ReutrnToMenu"
+          Call="ReutrnToMenu(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>InputOutput_IO.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="16"
+      Name="Device1">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReutrnToMenu.st"
+          FunctionName="ReutrnToMenu"
+          Call="ReutrnToMenu(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>Device1_Device1Msk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="15"
+      Name="Device2">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReutrnToMenu.st"
+          FunctionName="ReutrnToMenu"
+          Call="ReutrnToMenu(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>Device2_Device2Msk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="14"
+      Name="Devicen">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReutrnToMenu.st"
+          FunctionName="ReutrnToMenu"
+          Call="ReutrnToMenu(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>Devicen_DevicenMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="13"
+      Name="UnitCfg">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReutrnToMenu.st"
+          FunctionName="ReutrnToMenu"
+          Call="ReutrnToMenu(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>UnitCfg_UnitCfgMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="12"
+      Name="Alarms">
+      <Masks>
+        <FileName>Alarms_AlarmsMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="18"
+      Name="AlarmsLog">
+      <Masks>
+        <FileName>AlarmsLog_AlarmsLogMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="6"
+      Name="WarningAccessDenied">
+      <Masks>
+        <FileName>ChechAccessRight_Mask37.xml</FileName>
+        <FileName>WarningAccessDenied_InsertManufacturer.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="7"
+      Name="DefaultDone">
+      <Leds>
+        <Led
+          Name="LED_ALM"
+          BlinkingCondition="FALSE"
+          OnCondition="FALSE" />
+        <Led
+          Name="LED_PRG"
+          OnCondition="FALSE" />
+        <Led
+          Name="LED_BACKGROUND"
+          OnCondition="FALSE" />
+      </Leds>
+      <Actions>
+        <Action
+          KeyName="KEY_DOWN"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+        <Action
+          KeyName="KEY_UP"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+        <Action
+          KeyName="KEY_ENTER"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+        <Action
+          KeyName="KEY_ALARM"
+          FileName="DoNothing.st"
+          FunctionName="DoNothing"
+          Call="DoNothing(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>DefaultDone_EndDefault.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="23"
+      Name="SubMenuSettings">
+      <Masks>
+        <FileName>SubMenuSettings_SubMenuSettingsMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="10"
+      Name="DateTime">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReturnToSubMenuSettings.st"
+          FunctionName="ReturnToSubMenuSettings"
+          Call="ReturnToSubMenuSettings(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>DateTime_Mask31.xml</FileName>
+        <FileName>DateTime_Mask16.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="19"
+      Name="UoM">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReturnToSubMenuSettings.st"
+          FunctionName="ReturnToSubMenuSettings"
+          Call="ReturnToSubMenuSettings(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>UoM_UoMMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="20"
+      Name="Network">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReturnToSubMenuSettings.st"
+          FunctionName="ReturnToSubMenuSettings"
+          Call="ReturnToSubMenuSettings(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>Network_BMS1.xml</FileName>
+        <FileName>Network_BMS2.xml</FileName>
+        <FileName>Network_Mask33.xml</FileName>
+        <FileName>Network_Fieldbus2.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="21"
+      Name="ChangePwds">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReturnToSubMenuSettings.st"
+          FunctionName="ReturnToSubMenuSettings"
+          Call="ReturnToSubMenuSettings(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>ChangePwds_ChangePwdsMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="22"
+      Name="Initialization">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReturnToSubMenuSettings.st"
+          FunctionName="ReturnToSubMenuSettings"
+          Call="ReturnToSubMenuSettings(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>Initialization_InitializationMsk.xml</FileName>
+        <FileName>Initialization_DefaultMsk.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="24"
+      Name="Logout">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="ReutrnToMenu.st"
+          FunctionName="ReutrnToMenu"
+          Call="ReutrnToMenu(keyPressed, keyCounter);"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>LogOut_Mask32.xml</FileName>
+      </Masks>
+    </Loop>
+    <Loop
+      ID="25"
+      Name="Loop0">
+      <Actions>
+        <Action
+          KeyName="KEY_ESC"
+          FileName="pGD1Gui.st"
+          FunctionName="GoToFirstMask"
+          Call="GoToFirstMask();"
+          Type="Single" />
+      </Actions>
+      <Masks>
+        <FileName>Loop0_MainMask.xml</FileName>
+        <FileName>Loop0_InputValues_1_10.xml</FileName>
+        <FileName>Loop0_InputValues_11_16.xml</FileName>
+        <FileName>Loop0_Mask53.xml</FileName>
+        <FileName>Loop0_AnalogOutValues.xml</FileName>
+        <FileName>Loop0_AnalogUniOut_1_14.xml</FileName>
+        <FileName>Loop0_AnalogUniOut_15_16.xml</FileName>
+        <FileName>Loop0_RelayStatus.xml</FileName>
+        <FileName>Loop0_ValveMask.xml</FileName>
+        <FileName>Loop0_Mask55.xml</FileName>
+        <FileName>Loop0_ChipIoInfos.xml</FileName>
+        <FileName>Loop0_ChipIoErrors.xml</FileName>
+        <FileName>Loop0_InputSetup_1_16.xml</FileName>
+        <FileName>Loop0_InputSetup_15_16.xml</FileName>
+        <FileName>Loop0_SlaveStatus.xml</FileName>
+        <FileName>Loop0_Mask54.xml</FileName>
+        <FileName>Loop0_PowerStatus.xml</FileName>
+        <FileName>Loop0_I2C_Monitor.xml</FileName>
+        <FileName>Loop0_Sysinfos.xml</FileName>
+        <FileName>Loop0_OEMInfos.xml</FileName>
+      </Masks>
+    </Loop>
+  </Loops>
+</GuiData>

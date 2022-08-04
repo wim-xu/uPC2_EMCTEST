@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="55"
+  Name="Valve2Mask"
+  Version="3.0"
+  EnableOn="EVD_EVOinstance.DeviceEvdEvo.Info.isOnline" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="717"
+      Name="TextField717"
+      Row="2"
+      Column="2" />
+    <TextField
+      ID="719"
+      Name="TextField719"
+      Row="4"
+      Column="2" />
+    <DataField
+      ID="721"
+      Name="DataField721"
+      Row="4"
+      Column="10"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="EVD_EVOinstance.ValveB_CurrentEstimatedPosition"
+      Min="0"
+      Max="65535" />
+    <TextField
+      ID="725"
+      Name="TextField725"
+      Row="1"
+      Column="12" />
+    <TextField
+      ID="726"
+      Name="TextField726"
+      Row="1"
+      Column="18" />
+    <TextField
+      ID="727"
+      Name="TextField727"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="728"
+      Name="TextField728"
+      Row="1"
+      Column="6" />
+    <TextField
+      ID="729"
+      Name="TextField729"
+      Row="7"
+      Column="0" />
+    <DataField
+      ID="724"
+      Name="DataField724"
+      Row="2"
+      Column="10"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="EVD_EVOinstance.ValveA_CurrentEstimatedPosition"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="730"
+      Name="DataField730"
+      Row="2"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="EVD_EVO_PositionA_Msk"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="731"
+      Name="DataField731"
+      Row="4"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="EVD_EVO_PositionB_Msk"
+      Min="0"
+      Max="1000" />
+    <DataField
+      ID="732"
+      Name="DataField732"
+      Row="7"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="EVD_EVO_AutoSwingFast">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M55DF732_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M55DF732_MRF" />
+      </BoolStates>
+    </DataField>
+    <DataField
+      ID="734"
+      Name="DataField734"
+      Row="4"
+      Column="15"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="-iiiii"
+      VariableName="EVD_EVO_DevErr"
+      Min="-32768"
+      Max="32767" />
+    <DataField
+      ID="733"
+      Name="DataField733"
+      Row="2"
+      Column="15"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="-iiiii"
+      VariableName="EVD_EVO_DevErr"
+      Min="-32768"
+      Max="32767" />
+  </MaskElements>
+</BaseMaskData>

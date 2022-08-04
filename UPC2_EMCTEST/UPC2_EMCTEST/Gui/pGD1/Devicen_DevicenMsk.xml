@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="20"
+  Name="DevicenMsk"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="336" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="121"
+      Name="ShapeField121"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="128"
+      Name="TextField128"
+      Row="0"
+      Column="1" />
+    <TextAreaField
+      ID="307"
+      Name="TextAreaField307"
+      Row="2"
+      Column="0"
+      Width="22"
+      Height="2" />
+    <TextWidget
+      ID="336"
+      Name="TextWidget336"
+      Row="0"
+      Column="0"
+      Selectable="TRUE"
+      ClassName="AccessRightWidget">
+      <Members>
+        <Member
+          Name="LoginType"
+          Value="1" />
+      </Members>
+    </TextWidget>
+  </MaskElements>
+</BaseMaskData>

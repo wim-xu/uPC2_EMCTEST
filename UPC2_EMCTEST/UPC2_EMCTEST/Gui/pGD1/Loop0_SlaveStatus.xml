@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="50"
+  Name="SlaveStatus"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="592"
+      Name="TextField175"
+      Row="0"
+      Column="0" />
+    <DataField
+      ID="594"
+      Name="DataField594"
+      Row="1"
+      Column="7"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="Cpcoe1_Err">
+      <BoolStates>
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M50DF594_MRF" />
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M50DF594_MRT" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="181"
+      Name="TextField181"
+      Row="1"
+      Column="13" />
+    <DataField
+      ID="682"
+      Name="DataField682"
+      Row="3"
+      Column="7"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="Cpcoe2_Err">
+      <BoolStates>
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M50DF682_MRF" />
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M50DF682_MRT" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="683"
+      Name="TextField683"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="684"
+      Name="TextField684"
+      Row="3"
+      Column="13" />
+    <DataField
+      ID="685"
+      Name="DataField685"
+      Row="3"
+      Column="16"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="-iiiii"
+      VariableName="cPCOe2_ErrCode"
+      Min="-32768"
+      Max="32767" />
+    <TextField
+      ID="686"
+      Name="TextField686"
+      Row="1"
+      Column="0" />
+    <TextField
+      ID="687"
+      Name="TextField687"
+      Row="5"
+      Column="0"
+      EnableOn="CurrentIOInfo.NO&gt;9" />
+    <DataField
+      ID="688"
+      Name="DataField688"
+      Row="5"
+      Column="7"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.NO&gt;9"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="Cpcoe3_Err">
+      <BoolStates>
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M50DF688_MRF" />
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M50DF688_MRT" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="689"
+      Name="TextField689"
+      Row="5"
+      Column="13"
+      EnableOn="CurrentIOInfo.NO&gt;9" />
+    <DataField
+      ID="690"
+      Name="DataField690"
+      Row="1"
+      Column="16"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="-iiiii"
+      VariableName="cPCOe1_ErrCode"
+      Min="-32768"
+      Max="32767" />
+    <DataField
+      ID="691"
+      Name="DataField691"
+      Row="5"
+      Column="16"
+      Domain="INT"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.NO&gt;9"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="-iiiii"
+      VariableName="cPCOe3_ErrCode"
+      Min="-32768"
+      Max="32767" />
+    <TextField
+      ID="707"
+      Name="TextField707"
+      Row="2"
+      Column="0" />
+    <DataField
+      ID="708"
+      Name="DataField708"
+      Row="2"
+      Column="15"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="cPCOe1_CH1Val"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="709"
+      Name="DataField709"
+      Row="4"
+      Column="15"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="cPCOe2_CH1Val"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="710"
+      Name="DataField710"
+      Row="6"
+      Column="15"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      EnableOn="CurrentIOInfo.NO&gt;9"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="cPCOe3_CH1Val"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="711"
+      Name="TextField711"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="712"
+      Name="TextField712"
+      Row="6"
+      Column="0"
+      EnableOn="CurrentIOInfo.NO&gt;9" />
+  </MaskElements>
+</BaseMaskData>

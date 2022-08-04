@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="36"
+  Name="EndDefault"
+  Version="3.0"
+  ShowDummy="false" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="258"
+      Name="TextField258"
+      Row="0"
+      Column="1" />
+    <ShapeField
+      ID="259"
+      Name="ShapeField259"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <ShapeField
+      ID="262"
+      Name="ShapeField262"
+      Row="7"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <DataField
+      ID="263"
+      Name="DataField263"
+      Row="4"
+      Column="0"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="ClientDeletingMem">
+      <BoolStates>
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF263_MRF" />
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF263_MRT" />
+      </BoolStates>
+    </DataField>
+    <DataField
+      ID="264"
+      Name="DataField264"
+      Row="5"
+      Column="0"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="ClientDeletingMem">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF264_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF264_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="265"
+      Name="TextField265"
+      Row="1"
+      Column="4" />
+    <DataField
+      ID="266"
+      Name="DataField266"
+      Row="2"
+      Column="4"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="ClientDeletingMem">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF266_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF266_MRF" />
+      </BoolStates>
+    </DataField>
+    <DataField
+      ID="267"
+      Name="DataField267"
+      Row="7"
+      Column="0"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="ClientDeletingMem">
+      <BoolStates>
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF267_MRF" />
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L7M36DF267_MRT" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="268"
+      Name="TextField268"
+      Row="0"
+      Column="19" />
+  </MaskElements>
+</BaseMaskData>

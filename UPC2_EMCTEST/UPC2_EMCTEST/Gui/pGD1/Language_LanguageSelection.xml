@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="15"
+  Name="LanguageSelection"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="68" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="61"
+      Name="ShapeField61"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="62"
+      Name="TextField62"
+      Row="0"
+      Column="1" />
+    <TextField
+      ID="63"
+      Name="TextField63"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="64"
+      Name="TextField64"
+      Row="6"
+      Column="1" />
+    <TextField
+      ID="65"
+      Name="TextField65"
+      Row="7"
+      Column="1" />
+    <DataField
+      ID="67"
+      Name="DataField67"
+      Row="0"
+      Column="19"
+      Domain="USINT"
+      Presentation="VariableWithUoM"
+      Selectable="FALSE"
+      EnableOn="EnLangMskCdwnT"
+      IntegerPartDigitsCount="2"
+      ShowUoM="true"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="LangMskCdwnT"
+      Min="0"
+      Max="99"
+      UoM="s" />
+    <TextWidget
+      ID="68"
+      Name="LanguageWidget"
+      Row="2"
+      Column="13"
+      Selectable="FALSE"
+      ClassName="LanguageWidget">
+      <Members />
+    </TextWidget>
+    <TextWidget
+      ID="69"
+      Name="LanguageAcronymWidget"
+      Row="3"
+      Column="20"
+      Selectable="FALSE"
+      ClassName="LanguageAcronymWidget">
+      <Members />
+    </TextWidget>
+  </MaskElements>
+</BaseMaskData>

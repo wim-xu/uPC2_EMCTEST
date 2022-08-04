@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="42"
+  Name="InputValues_1_10"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="66"
+      Name="TextField66"
+      Row="0"
+      Column="0" />
+    <DataField
+      ID="511"
+      Name="DataField511"
+      Row="1"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[1]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="512"
+      Name="DataField68"
+      Row="2"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[2]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="513"
+      Name="DataField69"
+      Row="3"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[3]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="70"
+      Name="DataField70"
+      Row="4"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[4]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="71"
+      Name="DataField71"
+      Row="5"
+      Column="2"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[5]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="72"
+      Name="DataField72"
+      Row="1"
+      Column="13"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[6]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="73"
+      Name="DataField73"
+      Row="2"
+      Column="13"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[7]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="74"
+      Name="DataField74"
+      Row="3"
+      Column="13"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[8]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="75"
+      Name="DataField75"
+      Row="4"
+      Column="13"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[9]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <DataField
+      ID="76"
+      Name="DataField76"
+      Row="5"
+      Column="13"
+      Domain="REAL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="-rrrr.r"
+      VariableName="InputValueR[10]"
+      Min="-9999.9"
+      Max="9999.9" />
+    <TextField
+      ID="77"
+      Name="TextField77"
+      Row="1"
+      Column="0" />
+    <TextField
+      ID="78"
+      Name="TextField78"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="514"
+      Name="TextField79"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="515"
+      Name="TextField515"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="516"
+      Name="TextField516"
+      Row="5"
+      Column="0" />
+    <TextField
+      ID="517"
+      Name="TextField517"
+      Row="1"
+      Column="11" />
+    <TextField
+      ID="518"
+      Name="TextField518"
+      Row="2"
+      Column="11" />
+    <TextField
+      ID="519"
+      Name="TextField519"
+      Row="3"
+      Column="11" />
+    <TextField
+      ID="85"
+      Name="TextField85"
+      Row="4"
+      Column="11" />
+    <TextField
+      ID="86"
+      Name="TextField86"
+      Row="5"
+      Column="10" />
+  </MaskElements>
+</BaseMaskData>

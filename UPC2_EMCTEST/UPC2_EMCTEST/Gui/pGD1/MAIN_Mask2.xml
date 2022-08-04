@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="2"
+  Name="MainPage"
+  Version="3.0"
+  ShowDummy="false" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Leds>
+    <Led
+      Name="LED_PRG"
+      OnCondition="FALSE" />
+  </Leds>
+  <Actions>
+    <Action
+      KeyName="KEY_UP"
+      FileName="QuickMenuUP.st"
+      FunctionName="QuickMenuUP"
+      Call="QuickMenuUP(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_DOWN"
+      FileName="QuickMenuDOWN.st"
+      FunctionName="QuickMenuDOWN"
+      Call="QuickMenuDOWN(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_ENTER"
+      FileName="QuickMenuENTER.st"
+      FunctionName="QuickMenuENTER"
+      Call="QuickMenuENTER(keyPressed, keyCounter);"
+      Type="Single" />
+    <Action
+      KeyName="KEY_PRG"
+      FileName="AskPwd.st"
+      FunctionName="AskPwd"
+      Call="AskPwd(keyPressed, keyCounter);"
+      Type="Single" />
+  </Actions>
+  <MaskElements>
+    <TextField
+      ID="12"
+      Name="TextField12"
+      Row="6"
+      Column="0" />
+    <ImageField
+      ID="17"
+      Name="ImageField17"
+      Row="6"
+      Column="20"
+      Domain="Image"
+      Presentation="image"
+      Selectable="FALSE"
+      Nickname="UpDown2"
+      X="120"
+      Y="48" />
+    <ImageField
+      ID="18"
+      Name="ImageField18"
+      Row="6"
+      Column="16"
+      Domain="Image"
+      Presentation="image"
+      Selectable="FALSE"
+      Nickname="BlackHorizontalSemicircle"
+      X="96"
+      Y="48" />
+    <DataField
+      ID="32"
+      Name="DataField32"
+      Row="7"
+      Column="0"
+      Domain="USINT"
+      Presentation="IAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="2"
+      ZeroSuppression="true"
+      FormatString="ii"
+      VariableName="UnitStatus"
+      Min="0"
+      Max="28">
+      <IntStates>
+        <State
+          ID="0"
+          Type="Text"
+          TranslationKey="pGD1_L2M2DF32_MR0" />
+        <State
+          ID="1"
+          Type="Text"
+          TranslationKey="pGD1_L2M2DF32_MR1" />
+        <State
+          ID="2"
+          Type="Text"
+          TranslationKey="pGD1_L2M2DF32_MR2" />
+        <State
+          ID="3"
+          Type="Text"
+          TranslationKey="pGD1_L2M2DF32_MR3" />
+        <State
+          ID="6"
+          Type="Text"
+          TranslationKey="pGD1_L2M2DF32_MR6" />
+        <State
+          ID="5"
+          Type="Text"
+          TranslationKey="pGD1_L2M2DF32_MR5" />
+      </IntStates>
+    </DataField>
+    <DataField
+      ID="33"
+      Name="DataField33"
+      Row="6"
+      Column="17"
+      Domain="USINT"
+      Presentation="IAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="1"
+      ZeroSuppression="true"
+      FormatString="i"
+      VariableName="IdxImgQM"
+      Min="0"
+      Max="5">
+      <IntStates>
+        <State
+          ID="0"
+          Type="Image"
+          Attribute="OnOff_16x36" />
+        <State
+          ID="1"
+          Type="Image"
+          Attribute="Set_16x36" />
+        <State
+          ID="2"
+          Type="Image"
+          Attribute="Info_16x36" />
+        <State
+          ID="3"
+          Type="Image"
+          Attribute="OnOff_16x36_C" />
+        <State
+          ID="4"
+          Type="Image"
+          Attribute="Set_16x36_C" />
+        <State
+          ID="5"
+          Type="Image"
+          Attribute="Info_16x36_C" />
+      </IntStates>
+    </DataField>
+    <ShapeField
+      ID="8"
+      Name="ShapeField8"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextWidget
+      ID="88"
+      Name="WeekWidget88"
+      Row="0"
+      Column="10"
+      Selectable="FALSE"
+      ClassName="WeekWidget">
+      <Members />
+    </TextWidget>
+    <TextWidget
+      ID="116"
+      Name="ShortTimeWidget116"
+      Row="0"
+      Column="17"
+      Selectable="FALSE"
+      ClassName="ShortTimeWidget">
+      <Members />
+    </TextWidget>
+    <TextWidget
+      ID="180"
+      Name="DateWidget180"
+      Row="0"
+      Column="0"
+      Selectable="FALSE"
+      ClassName="DateWidget">
+      <Members />
+    </TextWidget>
+    <TextField
+      ID="271"
+      Name="TextField271"
+      Row="2"
+      Column="0" />
+    <DataField
+      ID="272"
+      Name="DataField272"
+      Row="2"
+      Column="15"
+      Domain="REAL"
+      Presentation="VariableWithUoM"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="2"
+      ShowUoM="true"
+      ZeroSuppression="true"
+      FormatString="-rr.r"
+      VariableName="Prg_InputMng.Ain1Val"
+      Min="-99.9"
+      Max="99.9"
+      UoM="°C" />
+  </MaskElements>
+</BaseMaskData>

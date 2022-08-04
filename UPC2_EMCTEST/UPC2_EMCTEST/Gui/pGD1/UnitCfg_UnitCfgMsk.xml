@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="19"
+  Name="UnitCfgMsk"
+  Version="3.0"
+  ShowDummy="false"
+  StartingField="344" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="120"
+      Name="ShapeField120"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <TextField
+      ID="130"
+      Name="TextField130"
+      Row="0"
+      Column="1" />
+    <TextWidget
+      ID="344"
+      Name="TextWidget344"
+      Row="0"
+      Column="0"
+      Selectable="TRUE"
+      ClassName="AccessRightWidget">
+      <Members>
+        <Member
+          Name="LoginType"
+          Value="1" />
+      </Members>
+    </TextWidget>
+    <DataField
+      ID="404"
+      Name="DataField404"
+      Row="3"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="B"
+      VariableName="En_BmsOffOn">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L13M19DF404_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L13M19DF404_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="405"
+      Name="TextField405"
+      Row="2"
+      Column="0" />
+    <DataField
+      ID="406"
+      Name="DataField406"
+      Row="5"
+      Column="19"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="BmsOffOn">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L13M19DF406_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L13M19DF406_MRF" />
+      </BoolStates>
+    </DataField>
+    <TextField
+      ID="407"
+      Name="TextField407"
+      Row="4"
+      Column="0" />
+  </MaskElements>
+</BaseMaskData>

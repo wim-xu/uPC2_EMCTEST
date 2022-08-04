@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace Name="PrjTemplate_pCO" Version="1.1">
+  <Info N="PrjTemplate_pCO" G="e77d8756-470d-4b0e-9c52-dd429339ab4a" C="4076722761" CC="4076722761" V="1.0.0" />
+  <Parameters>
+    <Parameter Name="A01" DataKind="BOOL" ReadOnly="true" Attributes="System,AlarmActive" Tags="Alarms" />
+    <Parameter Name="A02" DataKind="BOOL" ReadOnly="true" Attributes="System,AlarmActive" Tags="Alarms" />
+    <Parameter Name="A03" DataKind="BOOL" ReadOnly="true" Attributes="System,AlarmActive" Tags="Alarms" />
+    <Parameter Name="A04" DataKind="BOOL" ReadOnly="true" Attributes="System,AlarmActive" Tags="Alarms" />
+    <Parameter Name="Alarms.Table.Al_Ain1Alrm.Info.Code" DataKind="UINT" ReadOnly="true" DefaultValue="4" Attributes="System,AlarmActiveCode" />
+    <Parameter Name="Alarms.Table.Al_Din1Alrm.Info.Code" DataKind="UINT" ReadOnly="true" DefaultValue="3" Attributes="System,AlarmActiveCode" />
+    <Parameter Name="Alarms.Table.Al_NFCSavedTooOften.Info.Code" DataKind="UINT" ReadOnly="true" DefaultValue="2" Attributes="System,AlarmActiveCode" />
+    <Parameter Name="Alarms.Table.Al_RetainSavedTooOften.Info.Code" DataKind="UINT" ReadOnly="true" DefaultValue="1" Attributes="System,AlarmActiveCode" />
+    <Parameter Name="APPsCfgRTC.DateTime" DataKind="DT" Attributes="DateSet,System,Cloneable" />
+    <Parameter Name="APPsCfgRTC.SetRTC" DataKind="BOOL" Attributes="DateTrigger,System,Cloneable" />
+    <Parameter Name="APPsCfgRTC.TimeZone" DataKind="STRING" Attributes="DateTimeZone,System,Cloneable" />
+    <Parameter Name="BMS2_Addr" DataKind="USINT" Min="1" Max="247" DefaultValue="1" Attributes="Retain,Configurable,Cloneable" Tags="BMS2" />
+    <Parameter Name="BMS2_Baud" DataKind="USINT" Min="0" Max="8" DefaultValue="7" Attributes="Retain,Configurable,Cloneable" Tags="BMS2" />
+    <Parameter Name="BMS2_ChangeSet" DataKind="BOOL" DefaultValue="TRUE" Tags="BMS2" />
+    <Parameter Name="BMS2_Conf" DataKind="USINT" Min="0" Max="5" DefaultValue="1" Attributes="Retain,Configurable,Cloneable" Tags="BMS2" />
+    <Parameter Name="BmsOffOn" DataKind="BOOL" DefaultValue="FALSE" Attributes="Retain,Configurable,Cloneable" />
+    <Parameter Name="CurrLocTime.Day" DataKind="UINT" Min="1" Max="31" DefaultValue="1" UoM="DAY" />
+    <Parameter Name="CurrLocTime.Hour" DataKind="UINT" Min="0" Max="23" DefaultValue="0" UoM="HOUR" />
+    <Parameter Name="CurrLocTime.Minute" DataKind="UINT" Min="0" Max="59" DefaultValue="0" UoM="MINUTE" />
+    <Parameter Name="CurrLocTime.Month" DataKind="UINT" Min="1" Max="12" DefaultValue="1" UoM="MONTH" />
+    <Parameter Name="CurrLocTime.Year" DataKind="UINT" Min="2021" Max="2200" DefaultValue="2021" UoM="YEAR" />
+    <Parameter Name="DateFrmt" DataKind="USINT" Min="0" Max="2" DefaultValue="0" Attributes="Retain,Configurable,Cloneable" Tags="Settings" />
+    <Parameter Name="En_BmsOffOn" DataKind="BOOL" DefaultValue="FALSE" Attributes="Retain,Configurable,Cloneable" Tags="BMS2" />
+    <Parameter Name="En_Buzzer" DataKind="BOOL" DefaultValue="FALSE" Attributes="Retain,Configurable,Cloneable" Tags="Settings" />
+    <Parameter Name="FB2_Baud" DataKind="USINT" Min="0" Max="8" DefaultValue="4" Attributes="Retain,Configurable,Cloneable" Tags="Fieldbus2" />
+    <Parameter Name="FB2_ChangeSet" DataKind="BOOL" DefaultValue="TRUE" Tags="Fieldbus2" />
+    <Parameter Name="FB2_Conf" DataKind="USINT" Min="0" Max="5" DefaultValue="1" Attributes="Retain,Configurable,Cloneable" Tags="Fieldbus2" />
+    <Parameter Name="LogAlrmRes" DataKind="BOOL" Attributes="LogAlarmReset" Tags="Settings" />
+    <Parameter Name="Log_Alarm[10].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[10].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[10].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[11].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[11].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[11].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[12].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[12].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[12].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[13].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[13].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[13].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[14].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[14].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[14].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[15].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[15].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[15].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[16].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[16].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[16].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[17].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[17].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[17].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[18].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[18].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[18].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[19].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[19].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[19].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[1].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[1].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[1].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[20].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[20].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[20].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[2].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[2].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[2].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[3].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[3].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[3].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[4].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[4].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[4].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[5].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[5].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[5].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[6].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[6].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[6].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[7].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[7].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[7].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[8].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[8].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[8].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[9].Code" DataKind="UINT" ReadOnly="true" Attributes="System,AlarmCode,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[9].Status" DataKind="USINT" Min="0" Max="2" ReadOnly="true" Attributes="System,AlarmStatus,Retain" Tags="LogAlarm" />
+    <Parameter Name="Log_Alarm[9].TimeStamp" DataKind="DT" ReadOnly="true" Attributes="System,AlarmTimestamp,Retain" Tags="LogAlarm" />
+    <Parameter Name="NewDateTimeByNet.Day" DataKind="UINT" Min="1" Max="31" DefaultValue="1" UoM="DAY" />
+    <Parameter Name="NewDateTimeByNet.Hour" DataKind="UINT" Min="0" Max="23" DefaultValue="0" UoM="HOUR" />
+    <Parameter Name="NewDateTimeByNet.Minute" DataKind="UINT" Min="0" Max="59" DefaultValue="0" UoM="MINUTE" />
+    <Parameter Name="NewDateTimeByNet.Month" DataKind="UINT" Min="1" Max="12" DefaultValue="1" UoM="MONTH" />
+    <Parameter Name="NewDateTimeByNet.Year" DataKind="UINT" Min="2021" Max="2200" DefaultValue="2021" UoM="YEAR" />
+    <Parameter Name="PROJ_NAME" DataKind="STRING" ReadOnly="true" DefaultValue="'PrjTemplate_pCO'" Tags="Info" />
+    <Parameter Name="PROJ_VENDOR" DataKind="STRING" ReadOnly="true" DefaultValue="'Carel Industries S.p.A'" Tags="Info" />
+    <Parameter Name="PROJ_VER_BUILD" DataKind="DINT" ReadOnly="true" DefaultValue="0" Tags="Info" />
+    <Parameter Name="PROJ_VER_MAJOR" DataKind="DINT" ReadOnly="true" DefaultValue="1" Tags="Info" />
+    <Parameter Name="PROJ_VER_MINOR" DataKind="DINT" ReadOnly="true" DefaultValue="0" Tags="Info" />
+    <Parameter Name="PwdManuf" DataKind="UINT" Min="0" Max="9999" DefaultValue="9999" Attributes="Password,Retain,Configurable,Cloneable" Tags="Password" />
+    <Parameter Name="PwdService" DataKind="UINT" Min="0" Max="9999" DefaultValue="1234" Attributes="Password,Retain,Configurable,Cloneable" Tags="Password" />
+    <Parameter Name="PwdSys" DataKind="UINT" Min="0" Max="9999" DefaultValue="1604" Attributes="System,Password,Retain,Configurable,Cloneable" Tags="Password" />
+    <Parameter Name="PwdUser" DataKind="UINT" Min="0" Max="9999" DefaultValue="0" Attributes="Password,Retain,Configurable,Cloneable" Tags="Password" />
+    <Parameter Name="ResAlrmByBMS" DataKind="BOOL" Attributes="System,AlarmMasterReset" />
+    <Parameter Name="SetClockByNet" DataKind="BOOL" />
+    <Parameter Name="Timezone" DataKind="UINT" Min="1" Max="136" DefaultValue="50" Attributes="Retain" />
+    <Parameter Name="UnitOn" DataKind="BOOL" ReadOnly="true" Tags="Info" />
+    <Parameter Name="UnitOnHrs" DataKind="UDINT" ReadOnly="true" UoM="HOUR" Tags="Info" />
+    <Parameter Name="UnitOnHrsTot" DataKind="UDINT" ReadOnly="true" UoM="HOUR" Attributes="Retain" Tags="Info" />
+    <Parameter Name="UnitOnResHrs" DataKind="BOOL" Tags="Info" />
+    <Parameter Name="UnitStatus" DataKind="USINT" Min="0" Max="28" ReadOnly="true" DefaultValue="0" Tags="Info" />
+  </Parameters>
+  <Profiles>
+    <Profile Name="User" Password="PwdUser">
+      <Parameters>
+        <Parameter Name="A01" />
+        <Parameter Name="A02" />
+        <Parameter Name="A03" />
+        <Parameter Name="A04" />
+        <Parameter Name="BMS2_Addr" />
+        <Parameter Name="BMS2_Baud" />
+        <Parameter Name="BMS2_ChangeSet" />
+        <Parameter Name="BMS2_Conf" />
+        <Parameter Name="DateFrmt" />
+        <Parameter Name="En_BmsOffOn" />
+        <Parameter Name="En_Buzzer" />
+        <Parameter Name="FB2_Baud" />
+        <Parameter Name="FB2_ChangeSet" />
+        <Parameter Name="FB2_Conf" />
+        <Parameter Name="Log_Alarm[1].Code" />
+        <Parameter Name="Log_Alarm[1].Status" />
+        <Parameter Name="Log_Alarm[1].TimeStamp" />
+        <Parameter Name="Log_Alarm[10].Code" />
+        <Parameter Name="Log_Alarm[10].Status" />
+        <Parameter Name="Log_Alarm[10].TimeStamp" />
+        <Parameter Name="Log_Alarm[11].Code" />
+        <Parameter Name="Log_Alarm[11].Status" />
+        <Parameter Name="Log_Alarm[11].TimeStamp" />
+        <Parameter Name="Log_Alarm[12].Code" />
+        <Parameter Name="Log_Alarm[12].Status" />
+        <Parameter Name="Log_Alarm[12].TimeStamp" />
+        <Parameter Name="Log_Alarm[13].Code" />
+        <Parameter Name="Log_Alarm[13].Status" />
+        <Parameter Name="Log_Alarm[13].TimeStamp" />
+        <Parameter Name="Log_Alarm[14].Code" />
+        <Parameter Name="Log_Alarm[14].Status" />
+        <Parameter Name="Log_Alarm[14].TimeStamp" />
+        <Parameter Name="Log_Alarm[15].Code" />
+        <Parameter Name="Log_Alarm[15].Status" />
+        <Parameter Name="Log_Alarm[15].TimeStamp" />
+        <Parameter Name="Log_Alarm[16].Code" />
+        <Parameter Name="Log_Alarm[16].Status" />
+        <Parameter Name="Log_Alarm[16].TimeStamp" />
+        <Parameter Name="Log_Alarm[17].Code" />
+        <Parameter Name="Log_Alarm[17].Status" />
+        <Parameter Name="Log_Alarm[17].TimeStamp" />
+        <Parameter Name="Log_Alarm[18].Code" />
+        <Parameter Name="Log_Alarm[18].Status" />
+        <Parameter Name="Log_Alarm[18].TimeStamp" />
+        <Parameter Name="Log_Alarm[19].Code" />
+        <Parameter Name="Log_Alarm[19].Status" />
+        <Parameter Name="Log_Alarm[19].TimeStamp" />
+        <Parameter Name="Log_Alarm[2].Code" />
+        <Parameter Name="Log_Alarm[2].Status" />
+        <Parameter Name="Log_Alarm[2].TimeStamp" />
+        <Parameter Name="Log_Alarm[20].Code" />
+        <Parameter Name="Log_Alarm[20].Status" />
+        <Parameter Name="Log_Alarm[20].TimeStamp" />
+        <Parameter Name="Log_Alarm[3].Code" />
+        <Parameter Name="Log_Alarm[3].Status" />
+        <Parameter Name="Log_Alarm[3].TimeStamp" />
+        <Parameter Name="Log_Alarm[4].Code" />
+        <Parameter Name="Log_Alarm[4].Status" />
+        <Parameter Name="Log_Alarm[4].TimeStamp" />
+        <Parameter Name="Log_Alarm[5].Code" />
+        <Parameter Name="Log_Alarm[5].Status" />
+        <Parameter Name="Log_Alarm[5].TimeStamp" />
+        <Parameter Name="Log_Alarm[6].Code" />
+        <Parameter Name="Log_Alarm[6].Status" />
+        <Parameter Name="Log_Alarm[6].TimeStamp" />
+        <Parameter Name="Log_Alarm[7].Code" />
+        <Parameter Name="Log_Alarm[7].Status" />
+        <Parameter Name="Log_Alarm[7].TimeStamp" />
+        <Parameter Name="Log_Alarm[8].Code" />
+        <Parameter Name="Log_Alarm[8].Status" />
+        <Parameter Name="Log_Alarm[8].TimeStamp" />
+        <Parameter Name="Log_Alarm[9].Code" />
+        <Parameter Name="Log_Alarm[9].Status" />
+        <Parameter Name="Log_Alarm[9].TimeStamp" />
+        <Parameter Name="LogAlrmRes" />
+        <Parameter Name="PROJ_NAME" />
+        <Parameter Name="PROJ_VENDOR" />
+        <Parameter Name="PROJ_VER_BUILD" />
+        <Parameter Name="PROJ_VER_MAJOR" />
+        <Parameter Name="PROJ_VER_MINOR" />
+        <Parameter Name="PwdUser" />
+        <Parameter Name="UnitOn" />
+        <Parameter Name="UnitOnHrs" />
+        <Parameter Name="UnitOnHrsTot" />
+        <Parameter Name="UnitOnResHrs" />
+        <Parameter Name="UnitStatus" />
+      </Parameters>
+    </Profile>
+  </Profiles>
+  <Alarms>
+    <Alarm Name="Log_Alarm[10]" />
+    <Alarm Name="Log_Alarm[11]" />
+    <Alarm Name="Log_Alarm[12]" />
+    <Alarm Name="Log_Alarm[13]" />
+    <Alarm Name="Log_Alarm[14]" />
+    <Alarm Name="Log_Alarm[15]" />
+    <Alarm Name="Log_Alarm[16]" />
+    <Alarm Name="Log_Alarm[17]" />
+    <Alarm Name="Log_Alarm[18]" />
+    <Alarm Name="Log_Alarm[19]" />
+    <Alarm Name="Log_Alarm[1]" />
+    <Alarm Name="Log_Alarm[20]" />
+    <Alarm Name="Log_Alarm[2]" />
+    <Alarm Name="Log_Alarm[3]" />
+    <Alarm Name="Log_Alarm[4]" />
+    <Alarm Name="Log_Alarm[5]" />
+    <Alarm Name="Log_Alarm[6]" />
+    <Alarm Name="Log_Alarm[7]" />
+    <Alarm Name="Log_Alarm[8]" />
+    <Alarm Name="Log_Alarm[9]" />
+  </Alarms>
+  <AlarmsActive>
+    <AlarmActive Name="A01" Code="Alarms.Table.Al_RetainSavedTooOften.Info.Code" />
+    <AlarmActive Name="A02" Code="Alarms.Table.Al_NFCSavedTooOften.Info.Code" />
+    <AlarmActive Name="A03" Code="Alarms.Table.Al_Din1Alrm.Info.Code" />
+    <AlarmActive Name="A04" Code="Alarms.Table.Al_Ain1Alrm.Info.Code" />
+  </AlarmsActive>
+  <ModbusCommandsInfo />
+  <Configurations>
+    <Configuration Name="UserCfg">
+      <Parameters>
+        <Parameter Name="BMS2_Addr" Value="1" />
+        <Parameter Name="BMS2_Baud" Value="7" />
+        <Parameter Name="BMS2_Conf" Value="1" />
+        <Parameter Name="DateFrmt" Value="0" />
+        <Parameter Name="En_BmsOffOn" Value="TRUE" />
+        <Parameter Name="En_Buzzer" Value="TRUE" />
+        <Parameter Name="FB2_Baud" Value="4" />
+        <Parameter Name="FB2_Conf" Value="1" />
+        <Parameter Name="PwdManuf" Value="9999" />
+        <Parameter Name="PwdService" Value="1234" />
+        <Parameter Name="PwdSys" Value="1604" />
+        <Parameter Name="PwdUser" Value="0" />
+      </Parameters>
+    </Configuration>
+  </Configurations>
+  <Languages>
+    <Language>
+      <Value Name="A01">A01 Unit - Retain memory saved too often</Value>
+      <Value Name="A02">A02 Unit - NFC memory saved too often</Value>
+      <Value Name="A03">A03 Unit - Remote alarm by Din 1</Value>
+      <Value Name="A04">A04 Unit - Room temperature probe alarm by Ain 1</Value>
+      <Value Name="APPsCfgRTC.DateTime">(Reserve to APPs) New "Date and Time" used to update the RTC</Value>
+      <Value Name="APPsCfgRTC.SetRTC">(Reserve to APPs) Every time it's value change the PLC change it's RTC</Value>
+      <Value Name="APPsCfgRTC.TimeZone">(Reserve to APPs) New "Time Zone" used to update the RTC</Value>
+      <Value Name="BMS2_Addr">BMS2 port serial address</Value>
+      <Value Name="BMS2_Baud">BMS2 port baud rate (0=1200, 1=2400, 2=4800, 3=9600, 4=19200, 5=38400, 6=57600, 7=115200, 8=375000)</Value>
+      <Value Name="BMS2_ChangeSet">Applies the settings of serial line BMS2 (Auto-Reset excuted by application)</Value>
+      <Value Name="BMS2_Conf">BMS2 port network settings (0=NONE-1, 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2)</Value>
+      <Value Name="BmsOffOn">Unit On/Off command by BMS (0=OFF, 1=ON)</Value>
+      <Value Name="CurrLocTime.Day">Day</Value>
+      <Value Name="CurrLocTime.Hour">Hourh</Value>
+      <Value Name="CurrLocTime.Minute">Minute</Value>
+      <Value Name="CurrLocTime.Month">Month</Value>
+      <Value Name="CurrLocTime.Year">Year</Value>
+      <Value Name="DateFrmt">Date format enum. set by DateTimeChg mask (0=DD/MM/YYYY, 1=MM/DD/YYYY, 2=YYYY/MM/DD)</Value>
+      <Value Name="En_BmsOffOn">Enable unit ON/OFF command by BMS net (0=Disabled, 1=Enabled)</Value>
+      <Value Name="En_Buzzer">Enable buzzer (FALSE=Disabled, TRUE=Enabled)</Value>
+      <Value Name="FB2_Baud">FiledBus2 port baud rate (0=1200, 1=2400, 2=4800, 3=9600, 4=19200, 5=38400, 6=57600, 7=115200, 8=375000)</Value>
+      <Value Name="FB2_ChangeSet">Applies the settings of serial line FB2 (Auto-Reset excuted by application)</Value>
+      <Value Name="FB2_Conf">FiledBus2 port network settings (0=NONE-1, 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2)</Value>
+      <Value Name="LogAlrmRes">Alarms Log clear command (0=No, 1=Yes)</Value>
+      <Value Name="NewDateTimeByNet.Day">Day</Value>
+      <Value Name="NewDateTimeByNet.Hour">Hourh</Value>
+      <Value Name="NewDateTimeByNet.Minute">Minute</Value>
+      <Value Name="NewDateTimeByNet.Month">Month</Value>
+      <Value Name="NewDateTimeByNet.Year">Year</Value>
+      <Value Name="PROJ_NAME">Project name</Value>
+      <Value Name="PROJ_VENDOR">Project vendor</Value>
+      <Value Name="PROJ_VER_BUILD">Project version Build</Value>
+      <Value Name="PROJ_VER_MAJOR">Project version Major</Value>
+      <Value Name="PROJ_VER_MINOR">Project version Minor</Value>
+      <Value Name="PwdManuf">Manufacturer password</Value>
+      <Value Name="PwdService">Service password</Value>
+      <Value Name="PwdSys">System password</Value>
+      <Value Name="PwdUser">User password</Value>
+      <Value Name="ResAlrmByBMS">Reset active alarms by BMS net (0=NO, 1=Reset)</Value>
+      <Value Name="SetClockByNet">Set clock settings by Net</Value>
+      <Value Name="Timezone">Timezone</Value>
+      <Value Name="UnitOn">Unit ON/OFF status (FALSE=OFF, TRUE=ON)</Value>
+      <Value Name="UnitOnHrs">Unit On hours counter</Value>
+      <Value Name="UnitOnHrsTot">Unit On working hours (total)</Value>
+      <Value Name="UnitOnResHrs">Unit On reset hour counters</Value>
+      <Value Name="UnitStatus">UnitStatus - Unit status</Value>
+    </Language>
+  </Languages>
+  <Layouts>
+    <Layout N="Parameters" T="Parameters" C="242530345" L="98" NS="1783">
+      <PS>
+        <P N="A01" O="34" B="1" />
+        <P N="A02" O="122" B="1" />
+        <P N="A03" O="210" B="1" />
+        <P N="A04" O="298" B="1" />
+        <P N="Alarms.Table.Al_Ain1Alrm.Info.Code" O="296" />
+        <P N="Alarms.Table.Al_Din1Alrm.Info.Code" O="208" />
+        <P N="Alarms.Table.Al_NFCSavedTooOften.Info.Code" O="120" />
+        <P N="Alarms.Table.Al_RetainSavedTooOften.Info.Code" O="32" />
+        <P N="APPsCfgRTC.DateTime" O="440" />
+        <P N="APPsCfgRTC.SetRTC" O="436" />
+        <P N="APPsCfgRTC.TimeZone" D="80" O="444" />
+        <P N="BMS2_Addr" S="1" O="6" />
+        <P N="BMS2_Baud" S="1" O="7" />
+        <P N="BMS2_ChangeSet" O="543" />
+        <P N="BMS2_Conf" S="1" O="8" />
+        <P N="BmsOffOn" S="1" O="9" />
+        <P N="DateFrmt" S="1" O="10" />
+        <P N="En_BmsOffOn" S="1" O="15" />
+        <P N="En_Buzzer" S="1" O="16" />
+        <P N="FB2_Baud" S="1" O="20" />
+        <P N="FB2_ChangeSet" O="15657" B="1" />
+        <P N="FB2_Conf" S="1" O="21" />
+        <P N="LogAlrmRes" O="15974" />
+        <P N="Log_Alarm[10].Code" S="1" O="210" />
+        <P N="Log_Alarm[10].Status" S="1" O="216" />
+        <P N="Log_Alarm[10].TimeStamp" S="1" O="212" />
+        <P N="Log_Alarm[11].Code" S="1" O="230" />
+        <P N="Log_Alarm[11].Status" S="1" O="236" />
+        <P N="Log_Alarm[11].TimeStamp" S="1" O="232" />
+        <P N="Log_Alarm[12].Code" S="1" O="250" />
+        <P N="Log_Alarm[12].Status" S="1" O="256" />
+        <P N="Log_Alarm[12].TimeStamp" S="1" O="252" />
+        <P N="Log_Alarm[13].Code" S="1" O="270" />
+        <P N="Log_Alarm[13].Status" S="1" O="276" />
+        <P N="Log_Alarm[13].TimeStamp" S="1" O="272" />
+        <P N="Log_Alarm[14].Code" S="1" O="290" />
+        <P N="Log_Alarm[14].Status" S="1" O="296" />
+        <P N="Log_Alarm[14].TimeStamp" S="1" O="292" />
+        <P N="Log_Alarm[15].Code" S="1" O="310" />
+        <P N="Log_Alarm[15].Status" S="1" O="316" />
+        <P N="Log_Alarm[15].TimeStamp" S="1" O="312" />
+        <P N="Log_Alarm[16].Code" S="1" O="330" />
+        <P N="Log_Alarm[16].Status" S="1" O="336" />
+        <P N="Log_Alarm[16].TimeStamp" S="1" O="332" />
+        <P N="Log_Alarm[17].Code" S="1" O="350" />
+        <P N="Log_Alarm[17].Status" S="1" O="356" />
+        <P N="Log_Alarm[17].TimeStamp" S="1" O="352" />
+        <P N="Log_Alarm[18].Code" S="1" O="370" />
+        <P N="Log_Alarm[18].Status" S="1" O="376" />
+        <P N="Log_Alarm[18].TimeStamp" S="1" O="372" />
+        <P N="Log_Alarm[19].Code" S="1" O="390" />
+        <P N="Log_Alarm[19].Status" S="1" O="396" />
+        <P N="Log_Alarm[19].TimeStamp" S="1" O="392" />
+        <P N="Log_Alarm[1].Code" S="1" O="30" />
+        <P N="Log_Alarm[1].Status" S="1" O="36" />
+        <P N="Log_Alarm[1].TimeStamp" S="1" O="32" />
+        <P N="Log_Alarm[20].Code" S="1" O="410" />
+        <P N="Log_Alarm[20].Status" S="1" O="416" />
+        <P N="Log_Alarm[20].TimeStamp" S="1" O="412" />
+        <P N="Log_Alarm[2].Code" S="1" O="50" />
+        <P N="Log_Alarm[2].Status" S="1" O="56" />
+        <P N="Log_Alarm[2].TimeStamp" S="1" O="52" />
+        <P N="Log_Alarm[3].Code" S="1" O="70" />
+        <P N="Log_Alarm[3].Status" S="1" O="76" />
+        <P N="Log_Alarm[3].TimeStamp" S="1" O="72" />
+        <P N="Log_Alarm[4].Code" S="1" O="90" />
+        <P N="Log_Alarm[4].Status" S="1" O="96" />
+        <P N="Log_Alarm[4].TimeStamp" S="1" O="92" />
+        <P N="Log_Alarm[5].Code" S="1" O="110" />
+        <P N="Log_Alarm[5].Status" S="1" O="116" />
+        <P N="Log_Alarm[5].TimeStamp" S="1" O="112" />
+        <P N="Log_Alarm[6].Code" S="1" O="130" />
+        <P N="Log_Alarm[6].Status" S="1" O="136" />
+        <P N="Log_Alarm[6].TimeStamp" S="1" O="132" />
+        <P N="Log_Alarm[7].Code" S="1" O="150" />
+        <P N="Log_Alarm[7].Status" S="1" O="156" />
+        <P N="Log_Alarm[7].TimeStamp" S="1" O="152" />
+        <P N="Log_Alarm[8].Code" S="1" O="170" />
+        <P N="Log_Alarm[8].Status" S="1" O="176" />
+        <P N="Log_Alarm[8].TimeStamp" S="1" O="172" />
+        <P N="Log_Alarm[9].Code" S="1" O="190" />
+        <P N="Log_Alarm[9].Status" S="1" O="196" />
+        <P N="Log_Alarm[9].TimeStamp" S="1" O="192" />
+        <P N="PROJ_NAME" D="15" S="5" O="4256" />
+        <P N="PROJ_VENDOR" D="22" S="5" O="4274" />
+        <P N="PROJ_VER_BUILD" S="5" O="4300" />
+        <P N="PROJ_VER_MAJOR" S="5" O="4304" />
+        <P N="PROJ_VER_MINOR" S="5" O="4300" />
+        <P N="PwdManuf" S="1" O="430" />
+        <P N="PwdService" S="1" O="432" />
+        <P N="PwdSys" S="1" O="434" />
+        <P N="PwdUser" S="1" O="436" />
+        <P N="ResAlrmByBMS" O="18440" B="5" />
+        <P N="UnitOn" O="20882" B="1" />
+        <P N="UnitOnHrs" O="20884" />
+        <P N="UnitOnHrsTot" S="1" O="452" />
+        <P N="UnitOnResHrs" O="20888" />
+        <P N="UnitStatus" O="20889" />
+      </PS>
+    </Layout>
+    <Layout N="Supervisor" T="Modbus" C="1053506964" L="41" P="3" NS="513">
+      <PS>
+        <P N="A01" K="1" />
+        <P N="A02" K="1" O="1" />
+        <P N="A03" K="1" O="2" />
+        <P N="A04" K="1" O="3" />
+        <P N="BMS2_Addr" K="2" O="4" />
+        <P N="BMS2_Baud" K="2" O="5" />
+        <P N="BMS2_ChangeSet" O="3" />
+        <P N="BMS2_Conf" K="2" O="6" />
+        <P N="BmsOffOn" O="8" />
+        <P N="CurrLocTime.Day" K="3" O="8" />
+        <P N="CurrLocTime.Hour" K="3" O="6" />
+        <P N="CurrLocTime.Minute" K="3" O="7" />
+        <P N="CurrLocTime.Month" K="3" O="9" />
+        <P N="CurrLocTime.Year" K="3" O="10" />
+        <P N="DateFrmt" K="2" O="15" />
+        <P N="En_BmsOffOn" O="7" />
+        <P N="En_Buzzer" O="6" />
+        <P N="FB2_Baud" K="2" O="8" />
+        <P N="FB2_ChangeSet" O="4" />
+        <P N="FB2_Conf" K="2" O="7" />
+        <P N="LogAlrmRes" O="1" />
+        <P N="NewDateTimeByNet.Day" K="2" O="9" />
+        <P N="NewDateTimeByNet.Hour" K="2" O="12" />
+        <P N="NewDateTimeByNet.Minute" K="2" O="13" />
+        <P N="NewDateTimeByNet.Month" K="2" O="10" />
+        <P N="NewDateTimeByNet.Year" K="2" O="11" />
+        <P N="PROJ_VER_BUILD" D="2" K="3" O="4" />
+        <P N="PROJ_VER_MAJOR" D="2" K="3" />
+        <P N="PROJ_VER_MINOR" D="2" K="3" O="2" />
+        <P N="PwdManuf" K="2" O="2" />
+        <P N="PwdService" K="2" O="1" />
+        <P N="PwdSys" K="2" O="3" />
+        <P N="PwdUser" K="2" />
+        <P N="ResAlrmByBMS" />
+        <P N="SetClockByNet" O="2" />
+        <P N="Timezone" K="2" O="14" />
+        <P N="UnitOn" K="1" O="4" />
+        <P N="UnitOnHrs" D="2" K="3" O="12" />
+        <P N="UnitOnHrsTot" D="2" K="3" O="14" />
+        <P N="UnitOnResHrs" O="5" />
+        <P N="UnitStatus" K="3" O="11" />
+      </PS>
+    </Layout>
+  </Layouts>
+</Workspace>

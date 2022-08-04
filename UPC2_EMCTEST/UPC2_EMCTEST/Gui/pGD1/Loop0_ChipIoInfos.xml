@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="47"
+  Name="ChipIoInfos"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <DataField
+      ID="251"
+      Name="DataField251"
+      Row="1"
+      Column="6"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.boardType"
+      Min="0"
+      Max="65535" />
+    <TextField
+      ID="556"
+      Name="TextField252"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="557"
+      Name="TextField253"
+      Row="1"
+      Column="0" />
+    <DataField
+      ID="558"
+      Name="DataField254"
+      Row="2"
+      Column="8"
+      Domain="USINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="CurrentIOInfo.ID"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="559"
+      Name="TextField559"
+      Row="2"
+      Column="6" />
+    <DataField
+      ID="560"
+      Name="DataField256"
+      Row="2"
+      Column="2"
+      Domain="USINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="CurrentIOInfo.NO"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="561"
+      Name="TextField257"
+      Row="2"
+      Column="0" />
+    <TextField
+      ID="562"
+      Name="TextField562"
+      Row="2"
+      Column="12" />
+    <DataField
+      ID="563"
+      Name="DataField259"
+      Row="2"
+      Column="13"
+      Domain="USINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="CurrentIOInfo.U"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="260"
+      Name="TextField260"
+      Row="2"
+      Column="17" />
+    <DataField
+      ID="261"
+      Name="DataField261"
+      Row="2"
+      Column="18"
+      Domain="USINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="CurrentIOInfo.Y"
+      Min="0"
+      Max="255" />
+    <DataField
+      ID="564"
+      Name="DataField262"
+      Row="1"
+      Column="18"
+      Domain="USINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="iii"
+      VariableName="CurrentIOInfo.numIoChip"
+      Min="0"
+      Max="255" />
+    <TextField
+      ID="565"
+      Name="TextField263"
+      Row="1"
+      Column="12" />
+    <TextField
+      ID="566"
+      Name="TextField264"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="567"
+      Name="TextField567"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="568"
+      Name="TextField266"
+      Row="5"
+      Column="0" />
+    <TextField
+      ID="569"
+      Name="TextField267"
+      Row="6"
+      Column="0" />
+    <TextField
+      ID="570"
+      Name="TextField570"
+      Row="7"
+      Column="0" />
+    <DataField
+      ID="571"
+      Name="DataField269"
+      Row="3"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[1].fw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="572"
+      Name="DataField270"
+      Row="3"
+      Column="13"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[1].hw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="573"
+      Name="DataField271"
+      Row="3"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="CurrentIOInfo.chip[1].present" />
+    <DataField
+      ID="574"
+      Name="DataField574"
+      Row="4"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[2].fw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="273"
+      Name="DataField273"
+      Row="4"
+      Column="13"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[2].hw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="274"
+      Name="DataField274"
+      Row="4"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="CurrentIOInfo.chip[2].present" />
+    <DataField
+      ID="275"
+      Name="DataField275"
+      Row="5"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="CurrentIOInfo.chip[3].present" />
+    <DataField
+      ID="276"
+      Name="DataField276"
+      Row="5"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[3].fw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="277"
+      Name="DataField277"
+      Row="5"
+      Column="13"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[3].hw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="278"
+      Name="DataField278"
+      Row="6"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="CurrentIOInfo.chip[4].present" />
+    <DataField
+      ID="279"
+      Name="DataField279"
+      Row="6"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[4].fw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="280"
+      Name="DataField280"
+      Row="6"
+      Column="13"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[4].hw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="575"
+      Name="DataField575"
+      Row="7"
+      Column="2"
+      Domain="BOOL"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="CurrentIOInfo.chip[5].present" />
+    <DataField
+      ID="576"
+      Name="DataField282"
+      Row="7"
+      Column="5"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[5].fw"
+      Min="0"
+      Max="65535" />
+    <DataField
+      ID="283"
+      Name="DataField283"
+      Row="7"
+      Column="13"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="iiiii"
+      VariableName="CurrentIOInfo.chip[5].hw"
+      Min="0"
+      Max="65535" />
+  </MaskElements>
+</BaseMaskData>

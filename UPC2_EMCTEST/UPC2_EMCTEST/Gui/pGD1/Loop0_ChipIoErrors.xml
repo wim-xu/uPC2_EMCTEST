@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="48"
+  Name="ChipIoErrors"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="577"
+      Name="TextField577"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="38"
+      Name="TextField38"
+      Row="3"
+      Column="0" />
+    <TextField
+      ID="39"
+      Name="TextField39"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="40"
+      Name="TextField40"
+      Row="5"
+      Column="0" />
+    <TextField
+      ID="41"
+      Name="TextField41"
+      Row="6"
+      Column="0" />
+    <DataField
+      ID="578"
+      Name="DataField285"
+      Row="3"
+      Column="2"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCfg[1]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="579"
+      Name="DataField288"
+      Row="4"
+      Column="2"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCfg[2]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="580"
+      Name="DataField580"
+      Row="5"
+      Column="2"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCfg[3]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="290"
+      Name="DataField290"
+      Row="6"
+      Column="2"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCfg[4]"
+      Min="0"
+      Max="999" />
+    <TextField
+      ID="581"
+      Name="TextField292"
+      Row="2"
+      Column="2" />
+    <DataField
+      ID="293"
+      Name="DataField293"
+      Row="3"
+      Column="6"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCrc[1]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="582"
+      Name="DataField582"
+      Row="4"
+      Column="6"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCrc[2]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="295"
+      Name="DataField295"
+      Row="5"
+      Column="6"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCrc[3]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="583"
+      Name="DataField583"
+      Row="6"
+      Column="6"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorCrc[4]"
+      Min="0"
+      Max="999" />
+    <TextField
+      ID="297"
+      Name="TextField297"
+      Row="2"
+      Column="6" />
+    <DataField
+      ID="584"
+      Name="DataField584"
+      Row="3"
+      Column="10"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorNoasw[1]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="299"
+      Name="DataField299"
+      Row="4"
+      Column="10"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorNoasw[2]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="300"
+      Name="DataField300"
+      Row="5"
+      Column="10"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorNoasw[3]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="301"
+      Name="DataField301"
+      Row="6"
+      Column="10"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorNoasw[4]"
+      Min="0"
+      Max="999" />
+    <TextField
+      ID="302"
+      Name="TextField302"
+      Row="2"
+      Column="10" />
+    <DataField
+      ID="585"
+      Name="DataField303"
+      Row="3"
+      Column="14"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorExcep[1]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="586"
+      Name="DataField304"
+      Row="4"
+      Column="14"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorExcep[2]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="305"
+      Name="DataField305"
+      Row="5"
+      Column="14"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorExcep[3]"
+      Min="0"
+      Max="999" />
+    <DataField
+      ID="587"
+      Name="DataField306"
+      Row="6"
+      Column="14"
+      Domain="UDINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      IntegerPartDigitsCount="3"
+      ZeroSuppression="true"
+      FormatString="III"
+      VariableName="ChipIoErrorExcep[4]"
+      Min="0"
+      Max="999" />
+    <TextField
+      ID="588"
+      Name="TextField307"
+      Row="2"
+      Column="14" />
+  </MaskElements>
+</BaseMaskData>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="54"
+  Name="MasterStatus"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <TextField
+      ID="700"
+      Name="TextField700"
+      Row="0"
+      Column="0" />
+    <TextField
+      ID="701"
+      Name="TextField701"
+      Row="1"
+      Column="0" />
+    <TextField
+      ID="702"
+      Name="TextField702"
+      Row="4"
+      Column="0" />
+    <TextField
+      ID="703"
+      Name="TextField703"
+      Row="7"
+      Column="0" />
+    <DataField
+      ID="704"
+      Name="DataField704"
+      Row="1"
+      Column="18"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="DisplayIsOnline">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M54DF704_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M54DF704_MRF" />
+      </BoolStates>
+    </DataField>
+    <DataField
+      ID="705"
+      Name="DataField705"
+      Row="4"
+      Column="18"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="BMS1_Err">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M54DF705_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M54DF705_MRF" />
+      </BoolStates>
+    </DataField>
+    <DataField
+      ID="706"
+      Name="DataField706"
+      Row="7"
+      Column="18"
+      Domain="BOOL"
+      Presentation="BAR"
+      Selectable="FALSE"
+      IntegerPartDigitsCount="5"
+      ZeroSuppression="true"
+      FormatString="b"
+      VariableName="ETH1_Err">
+      <BoolStates>
+        <State
+          ID="true"
+          Type="Text"
+          TranslationKey="pGD1_L25M54DF706_MRT" />
+        <State
+          ID="false"
+          Type="Text"
+          TranslationKey="pGD1_L25M54DF706_MRF" />
+      </BoolStates>
+    </DataField>
+  </MaskElements>
+</BaseMaskData>

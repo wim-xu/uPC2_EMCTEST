@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseMaskData
+  p1:type="MaskData"
+  ID="27"
+  Name="ChangePwdsMsk"
+  Version="3.0" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <MaskElements>
+    <ShapeField
+      ID="137"
+      Name="ShapeField137"
+      Row="0"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <ImageField
+      ID="148"
+      Name="ImageField148"
+      Row="2"
+      Column="0"
+      Domain="Image"
+      Presentation="image"
+      Selectable="FALSE"
+      Nickname="Key_36x16"
+      X="0"
+      Y="16" />
+    <TextField
+      ID="149"
+      Name="TextField149"
+      Row="0"
+      Column="1" />
+    <ShapeField
+      ID="150"
+      Name="ShapeField150"
+      Row="7"
+      Column="0"
+      Domain="Shape"
+      Presentation="Shape"
+      Selectable="FALSE"
+      Width="22"
+      Height="1"
+      Fill="true"
+      Element="Rectangle" />
+    <DataField
+      ID="239"
+      Name="DataField239"
+      Row="4"
+      Column="18"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      EnableOn="Access_Manuf OR Access_Sys"
+      FieldTextColumn="18"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="PwdManuf"
+      Min="0"
+      Max="9999" />
+    <TextField
+      ID="240"
+      Name="TextField240"
+      Row="4"
+      Column="7"
+      EnableOn="Access_Manuf OR Access_Sys" />
+    <TextField
+      ID="241"
+      Name="TextField241"
+      Row="3"
+      Column="7"
+      EnableOn="Access_Service OR Access_Manuf OR Access_Sys" />
+    <TextField
+      ID="242"
+      Name="TextField242"
+      Row="2"
+      Column="7"
+      EnableOn="Access_User OR Access_Service OR Access_Manuf OR Access_Sys" />
+    <TextField
+      ID="243"
+      Name="TextField243"
+      Row="5"
+      Column="7"
+      EnableOn="Access_Sys" />
+    <DataField
+      ID="244"
+      Name="DataField244"
+      Row="3"
+      Column="18"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      EnableOn="Access_Service OR Access_Manuf OR Access_Sys"
+      FieldTextColumn="18"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="PwdService"
+      Min="0"
+      Max="9999" />
+    <DataField
+      ID="245"
+      Name="DataField245"
+      Row="2"
+      Column="18"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      EnableOn="Access_User OR Access_Service OR Access_Manuf OR Access_Sys"
+      FieldTextColumn="18"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="PwdUser"
+      Min="0"
+      Max="9999" />
+    <DataField
+      ID="246"
+      Name="DataField246"
+      Row="5"
+      Column="18"
+      Domain="UINT"
+      Presentation="variable"
+      Selectable="TRUE"
+      EnableOn="Access_Sys"
+      FieldTextColumn="18"
+      IntegerPartDigitsCount="4"
+      ZeroSuppression="true"
+      FormatString="IIII"
+      VariableName="PwdSys"
+      Min="0"
+      Max="9999" />
+  </MaskElements>
+</BaseMaskData>
