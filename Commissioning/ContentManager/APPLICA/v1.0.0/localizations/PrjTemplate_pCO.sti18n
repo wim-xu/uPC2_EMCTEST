@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+  <Language>
+    <Value Name="A01">A01 Unit - Retain memory saved too often</Value>
+    <Value Name="A02">A02 Unit - NFC memory saved too often</Value>
+    <Value Name="A03">A03 Unit - Remote alarm by Din 1</Value>
+    <Value Name="A04">A04 Unit - Room temperature probe alarm by Ain 1</Value>
+    <Value Name="APPsCfgRTC.DateTime">(Reserve to APPs) New "Date and Time" used to update the RTC</Value>
+    <Value Name="APPsCfgRTC.SetRTC">(Reserve to APPs) Every time it's value change the PLC change it's RTC</Value>
+    <Value Name="APPsCfgRTC.TimeZone">(Reserve to APPs) New "Time Zone" used to update the RTC</Value>
+    <Value Name="BMS2_Addr">BMS2 port serial address</Value>
+    <Value Name="BMS2_Baud">BMS2 port baud rate (0=1200, 1=2400, 2=4800, 3=9600, 4=19200, 5=38400, 6=57600, 7=115200, 8=375000)</Value>
+    <Value Name="BMS2_ChangeSet">Applies the settings of serial line BMS2 (Auto-Reset excuted by application)</Value>
+    <Value Name="BMS2_Conf">BMS2 port network settings (0=NONE-1, 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2)</Value>
+    <Value Name="BmsOffOn">Unit On/Off command by BMS (0=OFF, 1=ON)</Value>
+    <Value Name="CurrLocTime.Day">Day</Value>
+    <Value Name="CurrLocTime.Hour">Hourh</Value>
+    <Value Name="CurrLocTime.Minute">Minute</Value>
+    <Value Name="CurrLocTime.Month">Month</Value>
+    <Value Name="CurrLocTime.Year">Year</Value>
+    <Value Name="DateFrmt">Date format enum. set by DateTimeChg mask (0=DD/MM/YYYY, 1=MM/DD/YYYY, 2=YYYY/MM/DD)</Value>
+    <Value Name="En_BmsOffOn">Enable unit ON/OFF command by BMS net (0=Disabled, 1=Enabled)</Value>
+    <Value Name="En_Buzzer">Enable buzzer (FALSE=Disabled, TRUE=Enabled)</Value>
+    <Value Name="FB2_Baud">FiledBus2 port baud rate (0=1200, 1=2400, 2=4800, 3=9600, 4=19200, 5=38400, 6=57600, 7=115200, 8=375000)</Value>
+    <Value Name="FB2_ChangeSet">Applies the settings of serial line FB2 (Auto-Reset excuted by application)</Value>
+    <Value Name="FB2_Conf">FiledBus2 port network settings (0=NONE-1, 1=NONE-2, 2=EVEN-1, 3=EVEN-2, 4=ODD-1, 5=ODD-2)</Value>
+    <Value Name="LogAlrmRes">Alarms Log clear command (0=No, 1=Yes)</Value>
+    <Value Name="NewDateTimeByNet.Day">Day</Value>
+    <Value Name="NewDateTimeByNet.Hour">Hourh</Value>
+    <Value Name="NewDateTimeByNet.Minute">Minute</Value>
+    <Value Name="NewDateTimeByNet.Month">Month</Value>
+    <Value Name="NewDateTimeByNet.Year">Year</Value>
+    <Value Name="PROJ_NAME">Project name</Value>
+    <Value Name="PROJ_VENDOR">Project vendor</Value>
+    <Value Name="PROJ_VER_BUILD">Project version Build</Value>
+    <Value Name="PROJ_VER_MAJOR">Project version Major</Value>
+    <Value Name="PROJ_VER_MINOR">Project version Minor</Value>
+    <Value Name="PwdManuf">Manufacturer password</Value>
+    <Value Name="PwdService">Service password</Value>
+    <Value Name="PwdSys">System password</Value>
+    <Value Name="PwdUser">User password</Value>
+    <Value Name="ResAlrmByBMS">Reset active alarms by BMS net (0=NO, 1=Reset)</Value>
+    <Value Name="SetClockByNet">Set clock settings by Net</Value>
+    <Value Name="Timezone">Timezone</Value>
+    <Value Name="UnitOn">Unit ON/OFF status (FALSE=OFF, TRUE=ON)</Value>
+    <Value Name="UnitOnHrs">Unit On hours counter</Value>
+    <Value Name="UnitOnHrsTot">Unit On working hours (total)</Value>
+    <Value Name="UnitOnResHrs">Unit On reset hour counters</Value>
+    <Value Name="UnitStatus">UnitStatus - Unit status</Value>
+  </Language>
+</Languages>
